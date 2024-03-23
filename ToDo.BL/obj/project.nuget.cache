@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/8ZLU/D+v/emyNMWg4FCbOdAmy21dQW2nGjQ9zDd56fuYJcCC59dIxwH6Keb6YJzUSYypvFD1Rj/GexD2emL7A==",
+  "dgSpecHash": "NU0J605/vw8fuz2pr6P4/u9/J3e73OV2islzHv0ztYKPcHE9Wk/hJJuUgHSzpuNZenT3FsizwcOUSRcKF/dR7g==",
   "success": true,
   "projectFilePath": "D:\\учёба\\курсы ITA\\1 - ToDo\\ToDo.BL\\ToDo.BL.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\vitia\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",

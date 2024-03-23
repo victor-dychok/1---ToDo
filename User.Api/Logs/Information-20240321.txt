@@ -1,0 +1,14 @@
+2024-03-21 09:56:50.611 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-21 09:56:51.365 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-21 09:56:51.365 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-21 09:56:51.403 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-21 09:56:51.403 +03:00 [INF] Hosting environment: Development
+2024-03-21 09:56:51.404 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-21 09:56:54.418 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-21 09:56:54.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 225.6702ms
+2024-03-21 09:56:54.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-21 09:56:54.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-21 09:56:54.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 17.444ms
+2024-03-21 09:56:54.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.135ms
+2024-03-21 09:56:54.890 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-21 09:56:54.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.7686ms

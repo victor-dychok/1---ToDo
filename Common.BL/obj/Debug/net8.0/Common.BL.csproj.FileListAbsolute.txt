@@ -9,3 +9,4 @@ D:\учёба\курсы ITA\1 - ToDo\Common.BL\obj\Debug\net8.0\Common.BL.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.BL\obj\Debug\net8.0\refint\Common.BL.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.BL\obj\Debug\net8.0\Common.BL.pdb
 D:\учёба\курсы ITA\1 - ToDo\Common.BL\obj\Debug\net8.0\ref\Common.BL.dll
+D:\учёба\курсы ITA\1 - ToDo\Common.BL\obj\Debug\net8.0\Common.BL.sourcelink.json

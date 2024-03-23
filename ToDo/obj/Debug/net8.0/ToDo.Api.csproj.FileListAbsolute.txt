@@ -155,3 +155,6 @@ D:\учёба\курсы ITA\1 - ToDo\ToDo\obj\Debug\net8.0\ToDo.Api.genruntimec
 D:\учёба\курсы ITA\1 - ToDo\ToDo\obj\Debug\net8.0\ref\ToDo.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo\bin\Debug\net8.0\SharpGrip.FluentValidation.AutoValidation.Mvc.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo\bin\Debug\net8.0\SharpGrip.FluentValidation.AutoValidation.Shared.dll
+D:\учёба\курсы ITA\1 - ToDo\ToDo\obj\Debug\net8.0\ToDo.Api.sourcelink.json
+D:\учёба\курсы ITA\1 - ToDo\ToDo\bin\Debug\net8.0\Common.Api.dll
+D:\учёба\курсы ITA\1 - ToDo\ToDo\bin\Debug\net8.0\Common.Api.pdb

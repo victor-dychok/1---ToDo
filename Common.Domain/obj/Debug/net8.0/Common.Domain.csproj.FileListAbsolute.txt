@@ -9,3 +9,4 @@ D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\Common.Doma
 D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\refint\Common.Domain.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\Common.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\ref\Common.Domain.dll
+D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\Common.Domain.sourcelink.json

@@ -64,6 +64,7 @@ try
     });
 
     builder.Services.AddUserServices();
+    builder.Services.AddHttpContextAccessor();
     builder.Services.AddTodoDatabase(builder.Configuration);
     builder.Services.AddFluentValidationAutoValidation();
 

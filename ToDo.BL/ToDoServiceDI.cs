@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using ToDo.BL;
 using UserServices;
+using Common.Api.Service;
 
 namespace ToDoBL
 {
@@ -25,6 +26,7 @@ namespace ToDoBL
             services.AddScoped<IToDoService, ToDoService>();
             services.AddScoped<IRepository<TodoItem>, SqlServerBaseReository<TodoItem>>();
             services.AddScoped<IRepository<AppUser>, SqlServerBaseReository<AppUser>>();
+            services.AddTransient<ICurrentUserService, CurrentUserService>();
             services.AddScoped<IRepository<AppUserAppRole>, SqlServerBaseReository<AppUserAppRole>>();
             services.AddTransient<IRepository<RefreshToken>, SqlServerBaseReository<RefreshToken>>();
             services.AddScoped<IRepository<AppUserRole>, SqlServerBaseReository<AppUserRole>>();

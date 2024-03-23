@@ -13,3 +13,4 @@ D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\refint\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.pdb
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\ref\Common.Api.dll
+D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.sourcelink.json

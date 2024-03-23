@@ -1,4 +1,5 @@
-﻿using Common.Domain;
+﻿using Common.Api.Service;
+using Common.Domain;
 using Common.Repository;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +21,9 @@ namespace UserServices
         {
             services.AddTransient<IRepository<AppUser>, SqlServerBaseReository<AppUser>>();
             services.AddTransient<IUserService, UserService>(); 
-            services.AddTransient<IAutnService, AuthService>();
+
+            services.AddTransient<ICurrentUserService, CurrentUserService>();
+
             services.AddTransient<IRepository<AppUserRole>, SqlServerBaseReository<AppUserRole>>();
             services.AddTransient<IRepository<RefreshToken>, SqlServerBaseReository<RefreshToken>>();
             services.AddTransient<IRepository<AppUserAppRole>, SqlServerBaseReository<AppUserAppRole>>();

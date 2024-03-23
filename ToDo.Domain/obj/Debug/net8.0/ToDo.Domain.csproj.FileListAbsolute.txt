@@ -13,3 +13,4 @@ D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\ToDo.Domain.d
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\refint\ToDo.Domain.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\ToDo.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\ref\ToDo.Domain.dll
+D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\ToDo.Domain.sourcelink.json

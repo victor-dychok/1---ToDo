@@ -18,7 +18,6 @@ namespace ToDo.Controllers
         {
             _toDoService = service;
         }
-        
 
         [HttpGet]
         public async Task<IActionResult> GetAll(int? offset, int? ownerId, string? lable, int? limit)
@@ -41,10 +40,10 @@ namespace ToDo.Controllers
         }
 
         [HttpGet("{id:int}/IsDone")]
-        public IActionResult GetByIdIsDone(int id, CancellationToken cancellationToken)
+        public async Task<IActionResult> GetByIdIsDone(int id, CancellationToken cancellationToken)
         {
-            var respItem = _toDoService.GetByIdIsDoneAsync(id, cancellationToken);
-            var respounce = new ToDoIdFlagResp(respItem.Id, respItem.Result.IsDone);
+            var respItem = await _toDoService.GetByIdIsDoneAsync(id, cancellationToken);
+            var respounce = new ToDoIdFlagResp(respItem.Id, respItem.IsDone);
             return Ok(respounce);
         }
 

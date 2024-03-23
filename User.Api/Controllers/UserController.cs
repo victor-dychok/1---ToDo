@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using User.Service.dto;
 using UserServices;
 using UserServices.dto;
 
 namespace UserAPI.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("users")]
     public class UserController : ControllerBase
@@ -14,12 +17,14 @@ namespace UserAPI.Controllers
             _users = users;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetAll(int? offset, string? name, int? limit)
         {
             return Ok(await _users.GetListAsync(offset, name, limit));
         }
 
+        [AllowAnonymous]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -35,9 +40,16 @@ namespace UserAPI.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put(UserDto newItem)
+        public async Task<IActionResult> Put(UserPutDto newItem)
         {
             var item = await _users.UpdateAsync(newItem);
+            return Ok(item);
+        }
+
+        [HttpPut("ResetPassword ")]
+        public async Task<IActionResult> ResetPassword(int id, UserPasswordResetDto newItem)
+        {
+            var item = await _users.ResetPasswordAsync(id, newItem);
             return Ok(item);
         }
 

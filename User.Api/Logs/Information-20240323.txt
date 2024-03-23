@@ -1,0 +1,430 @@
+2024-03-23 09:53:43.746 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 09:53:44.394 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 09:53:44.394 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 09:53:44.439 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 09:53:44.439 +03:00 [INF] Hosting environment: Development
+2024-03-23 09:53:44.440 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 09:53:46.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 09:53:46.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 232.9457ms
+2024-03-23 09:53:46.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 09:53:46.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 09:53:46.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.9599ms
+2024-03-23 09:53:46.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.9682ms
+2024-03-23 09:53:46.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 09:53:46.979 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "PUT users" for actions - UserAPI.Controllers.UserController.Put (User.Api),UserAPI.Controllers.UserController.ResetPassword (User.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-23 09:53:47.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 217.2137ms
+2024-03-23 09:54:17.886 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 09:54:18.208 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 09:54:18.208 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 09:54:18.298 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 09:54:18.299 +03:00 [INF] Hosting environment: Development
+2024-03-23 09:54:18.299 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 09:54:19.334 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 09:54:19.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 220.7653ms
+2024-03-23 09:54:19.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 09:54:19.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 09:54:19.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 15.5893ms
+2024-03-23 09:54:19.624 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.3711ms
+2024-03-23 09:54:19.720 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 09:54:19.817 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.4022ms
+2024-03-23 09:54:35.467 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/PasswordReset - application/json 46
+2024-03-23 09:54:36.217 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-23 09:54:36.220 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-23 09:54:36.221 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/PasswordReset - 401 0 null 754.7277ms
+2024-03-23 09:54:43.969 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 09:54:44.335 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 09:54:44.335 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 09:54:44.427 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 09:54:44.428 +03:00 [INF] Hosting environment: Development
+2024-03-23 09:54:44.428 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 09:54:45.556 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 09:54:45.723 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 171.591ms
+2024-03-23 09:54:45.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 09:54:45.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 09:54:45.848 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.8653ms
+2024-03-23 09:54:45.890 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.1777ms
+2024-03-23 09:54:45.969 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 09:54:46.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.2477ms
+2024-03-23 09:55:31.275 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 09:55:31.659 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 09:55:31.660 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 09:55:31.755 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 09:55:31.756 +03:00 [INF] Hosting environment: Development
+2024-03-23 09:55:31.756 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 09:55:33.033 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 09:55:33.202 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 174.0872ms
+2024-03-23 09:55:33.240 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 09:55:33.240 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 09:55:33.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.7727ms
+2024-03-23 09:55:33.281 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.6534ms
+2024-03-23 09:55:33.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 09:55:33.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.8818ms
+2024-03-23 09:55:54.721 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-23 09:55:54.859 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 09:55:54.882 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 09:55:56.639 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 09:55:56.743 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 09:55:56.749 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-23 09:55:56.754 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1868.9449ms
+2024-03-23 09:55:56.754 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 09:55:56.759 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 2038.2938ms
+2024-03-23 09:56:12.515 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/PasswordReset - application/json 58
+2024-03-23 09:56:12.521 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.ResetPassword (User.Api)'
+2024-03-23 09:56:12.526 +03:00 [INF] Route matched with {action = "ResetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 09:56:12.568 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 09:56:19.418 +03:00 [INF] Executed DbCommand (61ms) [Parameters=[@__newItem_Login_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__newItem_Login_0
+2024-03-23 09:56:26.154 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Login] = @p0, [PasswordHash] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-03-23 09:56:26.165 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-23 09:56:26.166 +03:00 [INF] Executed action UserAPI.Controllers.UserController.ResetPassword (User.Api) in 13639.5699ms
+2024-03-23 09:56:26.166 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.ResetPassword (User.Api)'
+2024-03-23 09:56:26.167 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/PasswordReset - 200 null application/json; charset=utf-8 13652.494ms
+2024-03-23 09:56:40.584 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 09:56:41.067 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 09:56:41.067 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 09:56:41.153 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 09:56:41.155 +03:00 [INF] Hosting environment: Development
+2024-03-23 09:56:41.155 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 09:56:42.158 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 09:56:42.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 187.8703ms
+2024-03-23 09:56:42.373 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 09:56:42.373 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 09:56:42.385 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 11.2901ms
+2024-03-23 09:56:42.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2501ms
+2024-03-23 09:56:42.478 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 09:56:42.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.6824ms
+2024-03-23 10:00:41.873 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:00:42.243 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 10:00:42.243 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 10:00:42.290 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 10:00:42.291 +03:00 [INF] Hosting environment: Development
+2024-03-23 10:00:42.291 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 10:00:43.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 10:00:43.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 183.9435ms
+2024-03-23 10:00:43.766 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 10:00:43.766 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 10:00:43.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 14.8933ms
+2024-03-23 10:00:43.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.9532ms
+2024-03-23 10:00:43.877 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 10:00:43.968 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.7962ms
+2024-03-23 10:12:58.801 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:12:59.103 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 10:12:59.103 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 10:12:59.183 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 10:12:59.183 +03:00 [INF] Hosting environment: Development
+2024-03-23 10:12:59.183 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 10:12:59.970 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 10:13:00.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 188.0162ms
+2024-03-23 10:13:00.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 10:13:00.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 10:13:00.184 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.0508ms
+2024-03-23 10:13:00.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.8023ms
+2024-03-23 10:13:00.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 10:13:00.418 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 123.5954ms
+2024-03-23 10:34:17.560 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:34:17.774 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 10:34:17.774 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 10:34:17.810 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 10:34:17.811 +03:00 [INF] Hosting environment: Development
+2024-03-23 10:34:17.811 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 10:34:19.043 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 10:34:19.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 162.2805ms
+2024-03-23 10:34:19.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 10:34:19.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 10:34:19.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 4.8355ms
+2024-03-23 10:34:19.270 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.9691ms
+2024-03-23 10:34:19.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 10:34:19.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 110.1973ms
+2024-03-23 10:34:28.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-23 10:34:29.043 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:34:29.063 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:34:30.760 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:34:30.860 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:34:30.868 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-23 10:34:30.873 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1807.1879ms
+2024-03-23 10:34:30.873 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:34:30.879 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 2651.4846ms
+2024-03-23 10:34:47.761 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 34
+2024-03-23 10:34:47.767 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-23 10:34:47.772 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:34:47.817 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:34:47.973 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[@__newItem_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newItem_Id_0
+2024-03-23 10:34:48.060 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Login] = @p0, [PasswordHash] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-03-23 10:34:48.073 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-23 10:34:48.074 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 301.8755ms
+2024-03-23 10:34:48.075 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-23 10:34:48.077 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 200 null application/json; charset=utf-8 315.2991ms
+2024-03-23 10:34:56.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users/34 - null null
+2024-03-23 10:34:56.768 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetById (User.Api)'
+2024-03-23 10:34:56.772 +03:00 [INF] Route matched with {action = "GetById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:34:56.783 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:34:56.792 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+2024-03-23 10:34:56.793 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-23 10:34:56.793 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetById (User.Api) in 20.5159ms
+2024-03-23 10:34:56.793 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetById (User.Api)'
+2024-03-23 10:34:56.793 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users/34 - 200 null application/json; charset=utf-8 28.078ms
+2024-03-23 10:35:12.511 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/Users/34/Password - application/json 30
+2024-03-23 10:35:12.516 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/Users/34/Password - 404 0 null 4.6067ms
+2024-03-23 10:35:12.517 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:7145/users/Users/34/Password, Response status code: 404
+2024-03-23 10:35:41.582 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/Users/34/Password - application/json 30
+2024-03-23 10:35:41.587 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/Users/34/Password - 404 0 null 2.5033ms
+2024-03-23 10:35:41.588 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:7145/users/Users/34/Password, Response status code: 404
+2024-03-23 10:35:46.030 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/Users/34/Password - application/json 30
+2024-03-23 10:35:46.030 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/Users/34/Password - 404 0 null 0.6736ms
+2024-03-23 10:35:46.031 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:7145/users/Users/34/Password, Response status code: 404
+2024-03-23 10:35:57.378 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/Users/34/Password - application/json 30
+2024-03-23 10:35:57.379 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/Users/34/Password - 404 0 null 1.174ms
+2024-03-23 10:35:57.379 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:7145/users/Users/34/Password, Response status code: 404
+2024-03-23 10:39:19.439 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:39:54.265 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:39:54.554 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 10:39:54.554 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 10:39:54.615 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 10:39:54.615 +03:00 [INF] Hosting environment: Development
+2024-03-23 10:39:54.615 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 10:39:55.741 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 10:39:55.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 192.3967ms
+2024-03-23 10:39:55.946 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 10:39:55.946 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 10:39:55.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.1556ms
+2024-03-23 10:39:55.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.1908ms
+2024-03-23 10:39:56.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 10:39:56.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 150.4653ms
+2024-03-23 10:40:08.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-23 10:40:08.857 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:40:08.877 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:40:09.994 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:40:10.077 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:40:10.082 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-23 10:40:10.087 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1207.0265ms
+2024-03-23 10:40:10.087 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:40:10.092 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1347.7617ms
+2024-03-23 10:40:29.365 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/Users/ResetPassword - application/json 42
+2024-03-23 10:40:29.367 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/Users/ResetPassword - 404 0 null 2.5339ms
+2024-03-23 10:40:29.368 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:7145/users/Users/ResetPassword, Response status code: 404
+2024-03-23 10:41:16.605 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:41:16.984 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 10:41:16.984 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 10:41:17.022 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 10:41:17.023 +03:00 [INF] Hosting environment: Development
+2024-03-23 10:41:17.023 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 10:41:18.323 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 10:41:18.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 165.2597ms
+2024-03-23 10:41:18.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 10:41:18.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 10:41:18.527 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 12.9129ms
+2024-03-23 10:41:18.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.6533ms
+2024-03-23 10:41:18.625 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 10:41:18.723 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 98.1254ms
+2024-03-23 10:41:32.039 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-23 10:41:32.147 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:41:32.167 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:41:33.308 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:41:33.395 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:41:33.400 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-23 10:41:33.405 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1234.8081ms
+2024-03-23 10:41:33.405 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:41:33.411 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1372.4536ms
+2024-03-23 10:41:48.270 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/Users/34/Password - application/json 43
+2024-03-23 10:41:48.272 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/Users/34/Password - 404 0 null 2.7233ms
+2024-03-23 10:41:48.272 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:7145/users/Users/34/Password, Response status code: 404
+2024-03-23 10:43:26.312 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:43:26.728 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 10:43:26.728 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 10:43:26.780 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 10:43:26.780 +03:00 [INF] Hosting environment: Development
+2024-03-23 10:43:26.780 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 10:43:27.840 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 10:43:28.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 203.9515ms
+2024-03-23 10:43:28.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 10:43:28.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 10:43:28.087 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.8263ms
+2024-03-23 10:43:28.122 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.6081ms
+2024-03-23 10:43:28.192 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 10:43:28.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.5539ms
+2024-03-23 10:43:55.887 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:43:56.294 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 10:43:56.294 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 10:43:56.342 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 10:43:56.343 +03:00 [INF] Hosting environment: Development
+2024-03-23 10:43:56.343 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 10:43:57.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 10:43:57.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 167.8669ms
+2024-03-23 10:43:57.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 10:43:57.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 10:43:57.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.7423ms
+2024-03-23 10:43:57.588 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.2077ms
+2024-03-23 10:43:57.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 10:43:57.783 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.3988ms
+2024-03-23 10:44:09.860 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/34/Password - application/json 30
+2024-03-23 10:44:09.920 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/34/Password - 404 0 null 60.309ms
+2024-03-23 10:44:09.921 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:7145/users/34/Password, Response status code: 404
+2024-03-23 10:44:26.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-23 10:44:26.179 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:44:26.199 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:44:27.345 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:44:27.436 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:44:27.442 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-23 10:44:27.446 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1244.0183ms
+2024-03-23 10:44:27.446 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:44:27.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1329.2173ms
+2024-03-23 10:44:38.140 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 35
+2024-03-23 10:44:38.146 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-23 10:44:38.152 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:44:38.196 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:44:38.322 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[@__newItem_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newItem_Id_0
+2024-03-23 10:44:38.410 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Login] = @p0, [PasswordHash] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-03-23 10:44:38.423 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-23 10:44:38.424 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 271.5962ms
+2024-03-23 10:44:38.424 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-23 10:44:38.425 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 200 null application/json; charset=utf-8 286.103ms
+2024-03-23 10:44:42.383 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-23 10:44:42.386 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:44:42.386 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:44:42.400 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:44:42.401 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:44:42.401 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-23 10:44:42.401 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 14.6107ms
+2024-03-23 10:44:42.401 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:44:42.401 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 17.7883ms
+2024-03-23 10:44:48.720 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 34
+2024-03-23 10:44:48.720 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-23 10:44:48.721 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:44:48.722 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:44:48.728 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__newItem_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newItem_Id_0
+2024-03-23 10:44:48.734 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Login] = @p0, [PasswordHash] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-03-23 10:44:48.734 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-23 10:44:48.734 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 13.8493ms
+2024-03-23 10:44:48.734 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-23 10:44:48.735 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 200 null application/json; charset=utf-8 15.1831ms
+2024-03-23 10:44:51.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-23 10:44:51.839 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:44:51.839 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:44:51.840 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:44:51.841 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:44:51.841 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-23 10:44:51.841 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 2.3464ms
+2024-03-23 10:44:51.841 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-23 10:44:51.841 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 3.6548ms
+2024-03-23 10:45:05.004 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/34/Password - application/json 30
+2024-03-23 10:45:05.005 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/34/Password - 404 0 null 1.0822ms
+2024-03-23 10:45:05.005 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:7145/users/34/Password, Response status code: 404
+2024-03-23 10:46:03.349 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 10:46:03.672 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-23 10:46:03.672 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-23 10:46:03.731 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 10:46:03.732 +03:00 [INF] Hosting environment: Development
+2024-03-23 10:46:03.732 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-23 10:46:04.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-23 10:46:04.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 170.8271ms
+2024-03-23 10:46:04.851 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-23 10:46:04.851 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 10:46:04.857 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.4992ms
+2024-03-23 10:46:04.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.5111ms
+2024-03-23 10:46:04.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-23 10:46:05.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.1717ms
+2024-03-23 10:46:18.060 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/ResetPassword ?id=34 - application/json 30
+2024-03-23 10:46:18.130 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-23 10:46:18.133 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-23 10:46:18.133 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/ResetPassword ?id=34 - 401 0 null 74.2241ms
+2024-03-23 10:46:32.953 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users/ResetPassword ?id=34 - application/json 30
+2024-03-23 10:46:33.009 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.ResetPassword (User.Api)'
+2024-03-23 10:46:33.033 +03:00 [INF] Route matched with {action = "ResetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(Int32, User.Service.dto.UserPasswordResetDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-23 10:46:34.156 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-23 10:46:37.704 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+2024-03-23 10:46:37.793 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Login] = @p0, [PasswordHash] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-03-23 10:46:37.810 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-23 10:46:37.819 +03:00 [INF] Executed action UserAPI.Controllers.UserController.ResetPassword (User.Api) in 4783.3491ms
+2024-03-23 10:46:37.820 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.ResetPassword (User.Api)'
+2024-03-23 10:46:37.827 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users/ResetPassword ?id=34 - 200 null application/json; charset=utf-8 4874.6817ms

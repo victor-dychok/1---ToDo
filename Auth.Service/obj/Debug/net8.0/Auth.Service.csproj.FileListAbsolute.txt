@@ -1,0 +1,5 @@
+D:\учёба\курсы ITA\1 - ToDo\Auth.Service\obj\Debug\net8.0\Auth.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\учёба\курсы ITA\1 - ToDo\Auth.Service\obj\Debug\net8.0\Auth.Service.AssemblyInfoInputs.cache
+D:\учёба\курсы ITA\1 - ToDo\Auth.Service\obj\Debug\net8.0\Auth.Service.AssemblyInfo.cs
+D:\учёба\курсы ITA\1 - ToDo\Auth.Service\obj\Debug\net8.0\Auth.Service.csproj.CoreCompileInputs.cache
+D:\учёба\курсы ITA\1 - ToDo\Auth.Service\obj\Debug\net8.0\Auth.Service.sourcelink.json

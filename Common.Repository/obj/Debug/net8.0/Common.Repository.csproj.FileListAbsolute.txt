@@ -15,3 +15,4 @@ D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\Common.
 D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\refint\Common.Repository.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\Common.Repository.pdb
 D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\ref\Common.Repository.dll
+D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\Common.Repository.sourcelink.json

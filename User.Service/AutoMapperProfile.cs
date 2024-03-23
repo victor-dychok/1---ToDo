@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using User.Service.dto;
 using UserServices.dto;
 
 namespace UserServices
@@ -14,8 +15,11 @@ namespace UserServices
         public AutoMapperProfile() 
         {
             CreateMap<UserDto, AppUser>();
+
             CreateMap<UserGetDto, AppUser>();
             CreateMap<AppUser, UserGetDto>();
+
+            CreateMap<UserPutDto, AppUser>();
         }
     }
 }

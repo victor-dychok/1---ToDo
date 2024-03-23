@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Api", "ToDo.Api.csproj", "{A4E44084-4B5B-4EE6-A623-CDCA1E575499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Api", "ToDo.Api.csproj", "{A4E44084-4B5B-4EE6-A623-CDCA1E575499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Domain", "..\Common.Domain\Common.Domain.csproj", "{3FEB2D3E-C2DE-4752-8032-C11F7FA9A1A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Domain", "..\Common.Domain\Common.Domain.csproj", "{3FEB2D3E-C2DE-4752-8032-C11F7FA9A1A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Api", "..\Common.Api\Common.Api.csproj", "{3CDF9B48-83C7-48CD-9790-95E39348A03C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Api", "..\Common.Api\Common.Api.csproj", "{3CDF9B48-83C7-48CD-9790-95E39348A03C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.BL", "..\Common.BL\Common.BL.csproj", "{BED0E600-75BF-4B40-90C3-03E392DD36BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.BL", "..\Common.BL\Common.BL.csproj", "{BED0E600-75BF-4B40-90C3-03E392DD36BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Repository", "..\Common.Repository\Common.Repository.csproj", "{E841BC55-AF15-4DC6-9375-F911469F8AE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Repository", "..\Common.Repository\Common.Repository.csproj", "{E841BC55-AF15-4DC6-9375-F911469F8AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.BL", "..\ToDo.BL\ToDo.BL.csproj", "{7372A82E-2BBF-4B6C-8E0B-42211700D484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.BL", "..\ToDo.BL\ToDo.BL.csproj", "{7372A82E-2BBF-4B6C-8E0B-42211700D484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Domain", "..\ToDo.Domain\ToDo.Domain.csproj", "{B21C412F-9AF2-4A32-9D6A-FB3A01759338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Domain", "..\ToDo.Domain\ToDo.Domain.csproj", "{B21C412F-9AF2-4A32-9D6A-FB3A01759338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Service", "..\User.Service\User.Service.csproj", "{6294F3F7-AB7A-4E7F-A571-FB92E617E140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Service", "..\User.Service\User.Service.csproj", "{6294F3F7-AB7A-4E7F-A571-FB92E617E140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Api", "..\User.Api\User.Api.csproj", "{8EE9B7AA-8608-437F-9775-D4C6BE24958C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Api", "..\User.Api\User.Api.csproj", "{8EE9B7AA-8608-437F-9775-D4C6BE24958C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Api", "..\Auth.Api\Auth.Api.csproj", "{13CCEB06-77A3-4AB6-AAB0-EDF146AFBC27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{8EE9B7AA-8608-437F-9775-D4C6BE24958C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EE9B7AA-8608-437F-9775-D4C6BE24958C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EE9B7AA-8608-437F-9775-D4C6BE24958C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CCEB06-77A3-4AB6-AAB0-EDF146AFBC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CCEB06-77A3-4AB6-AAB0-EDF146AFBC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CCEB06-77A3-4AB6-AAB0-EDF146AFBC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CCEB06-77A3-4AB6-AAB0-EDF146AFBC27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "UserAPI.Controllers.AuthController",
+    "Method": "Post",
+    "RelativePath": "Auth/CreateJwtToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authDto",
+        "Type": "Auth.Api.dto.AuthDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserAPI.Controllers.AuthController",
+    "Method": "GetMyInfo",
+    "RelativePath": "Auth/GetMyInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserAPI.Controllers.AuthController",
+    "Method": "Post",
+    "RelativePath": "Auth/RefreshJwtToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jwtToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

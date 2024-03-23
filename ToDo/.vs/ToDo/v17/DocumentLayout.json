@@ -3,14 +3,14 @@
   "WorkspaceRootPath": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4E44084-4B5B-4EE6-A623-CDCA1E575499}|ToDo.Api.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4E44084-4B5B-4EE6-A623-CDCA1E575499}|ToDo.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6294F3F7-AB7A-4E7F-A571-FB92E617E140}|..\\User.Service\\User.Service.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\user.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7372A82E-2BBF-4B6C-8E0B-42211700D484}|..\\ToDo.BL\\ToDo.BL.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.bl\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E44084-4B5B-4EE6-A623-CDCA1E575499}|ToDo.Api.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E44084-4B5B-4EE6-A623-CDCA1E575499}|ToDo.Api.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7372A82E-2BBF-4B6C-8E0B-42211700D484}|..\\ToDo.BL\\ToDo.BL.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.bl\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,45 +20,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T08:18:56.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\User.Service\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\User.Service\\UserService.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\User.Service\\UserService.cs",
-              "RelativeToolTip": "..\\User.Service\\UserService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ToDoController.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "Controllers\\ToDoController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAawC0AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T08:18:51.372Z",
+              "WhenOpened": "2024-03-23T08:10:21.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ToDoService.cs",
               "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.BL\\ToDoService.cs",
               "RelativeDocumentMoniker": "..\\ToDo.BL\\ToDoService.cs",
               "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.BL\\ToDoService.cs",
               "RelativeToolTip": "..\\ToDo.BL\\ToDoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAALAAAAAAAAAAAADwv7YAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T08:18:45.982Z",
+              "WhenOpened": "2024-03-23T07:48:03.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IToDoService.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.BL\\IToDoService.cs",
+              "RelativeDocumentMoniker": "..\\ToDo.BL\\IToDoService.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.BL\\IToDoService.cs",
+              "RelativeToolTip": "..\\ToDo.BL\\IToDoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:48:02.624Z",
               "EditorCaption": ""
             }
           ]

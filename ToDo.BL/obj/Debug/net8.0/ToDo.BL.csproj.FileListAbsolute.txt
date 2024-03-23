@@ -21,3 +21,6 @@ D:\учёба\курсы ITA\1 - ToDo\ToDo.BL\obj\Debug\net8.0\ToDo.BL.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo.BL\obj\Debug\net8.0\refint\ToDo.BL.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo.BL\obj\Debug\net8.0\ToDo.BL.pdb
 D:\учёба\курсы ITA\1 - ToDo\ToDo.BL\obj\Debug\net8.0\ref\ToDo.BL.dll
+D:\учёба\курсы ITA\1 - ToDo\ToDo.BL\obj\Debug\net8.0\ToDo.BL.sourcelink.json
+D:\учёба\курсы ITA\1 - ToDo\ToDo.BL\bin\Debug\net8.0\Common.Api.dll
+D:\учёба\курсы ITA\1 - ToDo\ToDo.BL\bin\Debug\net8.0\Common.Api.pdb

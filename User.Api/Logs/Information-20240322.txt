@@ -1,0 +1,1413 @@
+2024-03-22 15:49:47.161 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 15:49:47.377 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 15:49:47.377 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 15:49:47.413 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 15:49:47.413 +03:00 [INF] Hosting environment: Development
+2024-03-22 15:49:47.413 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 15:49:48.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 15:49:48.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 173.4708ms
+2024-03-22 15:49:48.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 15:49:48.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 15:49:48.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.7214ms
+2024-03-22 15:49:48.662 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.4199ms
+2024-03-22 15:49:48.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 15:49:49.027 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 146.4024ms
+2024-03-22 15:51:13.252 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 15:51:13.652 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 15:51:13.652 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 15:51:13.733 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 15:51:13.734 +03:00 [INF] Hosting environment: Development
+2024-03-22 15:51:13.734 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 15:51:14.949 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 15:51:15.103 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 157.4421ms
+2024-03-22 15:51:15.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 15:51:15.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 15:51:15.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 8.838ms
+2024-03-22 15:51:15.168 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.4733ms
+2024-03-22 15:51:15.230 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 15:51:15.353 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 122.5932ms
+2024-03-22 15:51:26.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 15:51:27.721 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 15:51:27.742 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 15:51:29.533 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 15:51:29.611 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 15:51:29.617 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1871.3811ms
+2024-03-22 15:51:29.617 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 15:51:29.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 2691.2075ms
+2024-03-22 15:51:40.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 15:51:40.989 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 15:51:40.990 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 15:51:41.037 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 15:51:41.038 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 15:51:41.039 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 48.377ms
+2024-03-22 15:51:41.039 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 15:51:41.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 51.4096ms
+2024-03-22 15:51:46.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 15:51:46.214 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 15:51:46.215 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 15:51:46.228 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 15:51:46.228 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 15:51:46.228 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 13.7486ms
+2024-03-22 15:51:46.228 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 15:51:46.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 17.0802ms
+2024-03-22 15:52:40.072 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 15:52:40.385 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 15:52:40.385 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 15:52:40.427 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 15:52:40.427 +03:00 [INF] Hosting environment: Development
+2024-03-22 15:52:40.427 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 15:52:41.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 15:52:41.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 173.4359ms
+2024-03-22 15:52:41.480 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 15:52:41.480 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 15:52:41.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 11.6162ms
+2024-03-22 15:52:41.528 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.7861ms
+2024-03-22 15:52:41.585 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 15:52:41.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.1151ms
+2024-03-22 15:53:46.992 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 15:53:47.382 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 15:53:47.382 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 15:53:47.506 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 15:53:47.507 +03:00 [INF] Hosting environment: Development
+2024-03-22 15:53:47.507 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 15:53:48.496 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 15:53:48.717 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 226.6024ms
+2024-03-22 15:53:48.736 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 15:53:48.736 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 15:53:48.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.2262ms
+2024-03-22 15:53:48.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.4357ms
+2024-03-22 15:53:48.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 15:53:48.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.89ms
+2024-03-22 15:53:59.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 15:53:59.416 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 15:53:59.438 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 15:54:00.578 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 15:54:00.644 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 15:54:00.650 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1208.0267ms
+2024-03-22 15:54:00.650 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 15:54:00.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1353.7778ms
+2024-03-22 15:54:06.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 15:54:06.470 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-22 15:54:06.478 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-22 15:54:06.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 401 0 null 13.7364ms
+2024-03-22 16:42:01.737 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 16:42:01.967 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 16:42:01.967 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 16:42:02.005 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 16:42:02.005 +03:00 [INF] Hosting environment: Development
+2024-03-22 16:42:02.005 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 16:42:03.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 16:42:04.336 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 368.133ms
+2024-03-22 16:42:04.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 16:42:04.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 16:42:04.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 25.772ms
+2024-03-22 16:42:04.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 125.7447ms
+2024-03-22 16:42:04.597 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 16:42:04.773 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.5532ms
+2024-03-22 16:42:09.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 16:42:09.385 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-22 16:42:09.387 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-22 16:42:09.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 401 0 null 65.5929ms
+2024-03-22 16:42:27.810 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 16:42:28.169 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 16:42:28.169 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 16:42:28.208 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 16:42:28.209 +03:00 [INF] Hosting environment: Development
+2024-03-22 16:42:28.209 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 16:42:29.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 16:42:29.547 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 193.2041ms
+2024-03-22 16:42:29.581 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 16:42:29.581 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 16:42:29.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 12.7071ms
+2024-03-22 16:42:29.633 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.027ms
+2024-03-22 16:42:29.707 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 16:42:29.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.2365ms
+2024-03-22 16:42:34.107 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 16:42:34.165 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:42:34.185 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 16:42:54.217 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 16:43:04.034 +03:00 [INF] Executed DbCommand (63ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 16:43:04.168 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 16:43:04.196 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 16:43:04.226 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 16:43:05.598 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Admin'
+2024-03-22 16:43:10.318 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 16:43:10.324 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 16:43:10.329 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 36140.5665ms
+2024-03-22 16:43:10.329 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:43:10.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 36228.0516ms
+2024-03-22 16:43:39.227 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 16:43:39.685 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 16:43:39.685 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 16:43:39.775 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 16:43:39.776 +03:00 [INF] Hosting environment: Development
+2024-03-22 16:43:39.776 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 16:43:40.999 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 16:43:41.160 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 165.0516ms
+2024-03-22 16:43:41.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 16:43:41.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 16:43:41.202 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 12.7401ms
+2024-03-22 16:43:41.241 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.4856ms
+2024-03-22 16:43:41.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 16:43:41.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 108.0126ms
+2024-03-22 16:44:40.805 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 16:44:41.177 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 16:44:41.177 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 16:44:41.232 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 16:44:41.232 +03:00 [INF] Hosting environment: Development
+2024-03-22 16:44:41.232 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 16:44:42.477 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 16:44:42.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 173.8428ms
+2024-03-22 16:44:42.677 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 16:44:42.677 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 16:44:42.682 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.8768ms
+2024-03-22 16:44:42.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.3415ms
+2024-03-22 16:44:42.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 16:44:42.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.9355ms
+2024-03-22 16:44:46.852 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 16:44:46.912 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:44:46.932 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 16:44:58.217 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 16:44:58.591 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 16:44:58.592 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 16:44:58.685 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 16:44:58.686 +03:00 [INF] Hosting environment: Development
+2024-03-22 16:44:58.686 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 16:44:59.873 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 16:45:00.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 210.8736ms
+2024-03-22 16:45:00.097 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 16:45:00.097 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 16:45:00.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 4.479ms
+2024-03-22 16:45:00.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.9482ms
+2024-03-22 16:45:00.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 16:45:00.352 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.4394ms
+2024-03-22 16:45:47.107 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 16:45:47.185 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:45:47.205 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 16:45:48.267 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 16:45:48.398 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 16:45:48.543 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 16:45:48.575 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 16:45:48.612 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 16:45:48.619 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Admin'
+2024-03-22 16:45:48.720 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 16:45:48.725 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 16:45:48.730 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1521.8979ms
+2024-03-22 16:45:48.730 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:45:48.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1630.5293ms
+2024-03-22 16:45:57.922 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 16:45:58.451 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 16:45:58.451 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 16:45:58.557 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 16:45:58.557 +03:00 [INF] Hosting environment: Development
+2024-03-22 16:45:58.558 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 16:45:59.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 16:45:59.503 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 163.7465ms
+2024-03-22 16:45:59.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 16:45:59.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 16:45:59.526 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.2694ms
+2024-03-22 16:45:59.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.7ms
+2024-03-22 16:45:59.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 16:45:59.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 103.1861ms
+2024-03-22 16:46:04.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 16:46:04.329 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:46:04.351 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 16:46:05.467 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 16:46:05.548 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 16:46:05.555 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 16:46:05.561 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1206.427ms
+2024-03-22 16:46:05.561 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:46:05.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1302.0494ms
+2024-03-22 16:46:18.032 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 16:46:18.034 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:46:18.035 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 16:46:24.230 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 16:46:32.013 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 16:46:32.015 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 16:46:33.922 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 15887.6046ms
+2024-03-22 16:46:33.923 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 16:46:33.923 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 15891.2613ms
+2024-03-22 16:59:49.266 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 16:59:49.699 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 16:59:49.699 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 16:59:49.765 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 16:59:49.765 +03:00 [INF] Hosting environment: Development
+2024-03-22 16:59:49.765 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 16:59:50.767 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 16:59:50.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 187.7775ms
+2024-03-22 16:59:50.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 16:59:50.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 16:59:50.973 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.7258ms
+2024-03-22 16:59:51.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.36ms
+2024-03-22 16:59:51.091 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 16:59:51.197 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.7726ms
+2024-03-22 17:05:37.660 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:05:37.867 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:05:37.867 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:05:37.910 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:05:37.910 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:05:37.910 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:05:38.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:05:38.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 211.795ms
+2024-03-22 17:05:38.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:05:38.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:05:38.973 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.4874ms
+2024-03-22 17:05:39.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.844ms
+2024-03-22 17:05:39.075 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:05:39.165 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.7757ms
+2024-03-22 17:07:35.673 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:07:35.988 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:07:35.988 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:07:36.047 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:07:36.047 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:07:36.047 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:07:37.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:07:37.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 168.7728ms
+2024-03-22 17:07:37.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:07:37.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:07:37.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.6901ms
+2024-03-22 17:07:37.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.1621ms
+2024-03-22 17:07:37.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:07:37.645 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.3884ms
+2024-03-22 17:08:04.896 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7145/users - application/json 48
+2024-03-22 17:08:05.715 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Post (User.Api)'
+2024-03-22 17:08:05.736 +03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:08:07.430 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:08:07.575 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-03-22 17:08:07.588 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Post (User.Api) in 1849.3742ms
+2024-03-22 17:08:07.589 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Post (User.Api)'
+2024-03-22 17:08:07.597 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7145/users - 400 null application/problem+json; charset=utf-8 2701.283ms
+2024-03-22 17:08:17.681 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7145/users - application/json 52
+2024-03-22 17:08:17.685 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Post (User.Api)'
+2024-03-22 17:08:17.685 +03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:08:17.732 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:08:17.882 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 17:08:17.990 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:08:18.018 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 17:08:18.045 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:08:18.052 +03:00 [INF] Executing CreatedResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-22 17:08:18.054 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Post (User.Api) in 368.1289ms
+2024-03-22 17:08:18.054 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Post (User.Api)'
+2024-03-22 17:08:18.056 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7145/users - 201 null application/json; charset=utf-8 374.9121ms
+2024-03-22 17:08:29.367 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7145/users - application/json 53
+2024-03-22 17:08:29.371 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-22 17:08:29.375 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-22 17:08:29.375 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7145/users - 401 0 null 7.8321ms
+2024-03-22 17:09:14.499 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:09:14.906 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:09:14.906 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:09:15.010 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:09:15.011 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:09:15.011 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:09:15.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:09:16.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 206.6813ms
+2024-03-22 17:09:16.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:09:16.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:09:16.285 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 21.2988ms
+2024-03-22 17:09:16.322 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.5314ms
+2024-03-22 17:09:16.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:09:16.522 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 110.4606ms
+2024-03-22 17:09:23.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 17:09:23.963 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:09:23.984 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:09:25.060 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:09:25.190 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 17:09:25.322 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:09:25.350 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 17:09:25.378 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:09:29.049 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Admin'
+2024-03-22 17:09:51.060 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:09:51.472 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:09:51.473 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:09:51.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:09:51.537 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:09:51.537 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:09:52.484 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:09:52.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 185.8198ms
+2024-03-22 17:09:52.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:09:52.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:09:52.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.63ms
+2024-03-22 17:09:52.748 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.001ms
+2024-03-22 17:09:52.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:09:52.935 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.6851ms
+2024-03-22 17:09:56.177 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 17:09:56.242 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:09:56.263 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:09:57.379 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:09:57.463 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:09:57.468 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 17:09:57.473 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1207.5627ms
+2024-03-22 17:09:57.474 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:09:57.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1302.2041ms
+2024-03-22 17:10:15.666 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:10:16.063 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:10:16.063 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:10:16.121 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:10:16.122 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:10:16.122 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:10:17.284 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:10:17.462 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 183.664ms
+2024-03-22 17:10:17.494 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:10:17.494 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:10:17.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 12.5889ms
+2024-03-22 17:10:17.547 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.8433ms
+2024-03-22 17:10:17.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:10:17.704 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.0298ms
+2024-03-22 17:10:21.968 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 17:10:22.030 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:10:22.050 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:10:23.133 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:10:23.267 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 17:10:23.402 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:10:23.430 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 17:10:23.460 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:10:25.686 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Admin'
+2024-03-22 17:10:36.921 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:10:36.927 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 17:10:36.932 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 14879.0345ms
+2024-03-22 17:10:36.932 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:10:36.938 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 14969.2316ms
+2024-03-22 17:21:23.982 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:21:24.400 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:21:24.401 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:21:24.457 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:21:24.457 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:21:24.457 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:21:25.732 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:21:26.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 287.8891ms
+2024-03-22 17:21:26.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:21:26.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:21:26.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.8616ms
+2024-03-22 17:21:26.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.6834ms
+2024-03-22 17:21:26.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:21:26.284 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.8942ms
+2024-03-22 17:21:30.638 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 17:21:30.701 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:21:30.723 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:21:32.025 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:21:32.181 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 17:21:32.324 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:21:32.363 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 17:21:32.396 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:21:32.403 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Admin'
+2024-03-22 17:21:32.497 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:21:32.502 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 17:21:32.507 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1780.8585ms
+2024-03-22 17:21:32.507 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:21:32.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1875.4872ms
+2024-03-22 17:22:25.237 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:22:25.620 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:22:25.620 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:22:25.699 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:22:25.699 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:22:25.699 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:22:26.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:22:27.135 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 254.6328ms
+2024-03-22 17:22:27.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:22:27.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:22:27.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 8.2369ms
+2024-03-22 17:22:27.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.7293ms
+2024-03-22 17:22:27.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:22:27.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.5787ms
+2024-03-22 17:22:30.009 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 17:22:30.073 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:22:30.093 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:22:31.167 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:22:31.304 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 17:22:31.450 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:22:31.478 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 17:22:31.510 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:22:31.516 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Admin'
+2024-03-22 17:22:58.235 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:22:58.240 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 17:22:58.246 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 28149.1122ms
+2024-03-22 17:22:58.246 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:22:58.252 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 28242.7095ms
+2024-03-22 17:23:52.320 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:23:52.789 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:23:52.790 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:23:52.848 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:23:52.848 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:23:52.848 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:23:53.749 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:23:53.931 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 191.4284ms
+2024-03-22 17:23:53.950 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:23:53.950 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:23:53.956 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.9149ms
+2024-03-22 17:23:53.997 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.5305ms
+2024-03-22 17:23:54.059 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:23:54.166 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.6381ms
+2024-03-22 17:23:57.987 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 17:23:58.050 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:23:58.072 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:23:59.140 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:23:59.276 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 17:23:59.419 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:23:59.452 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 17:23:59.484 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:23:59.491 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Admin'
+2024-03-22 17:23:59.497 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:23:59.522 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:23:59.528 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 17:23:59.534 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1457.6476ms
+2024-03-22 17:23:59.534 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:23:59.540 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1553.1252ms
+2024-03-22 17:24:49.687 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:24:50.061 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:24:50.061 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:24:50.140 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:24:50.145 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:24:50.145 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:24:51.316 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:24:51.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 189.269ms
+2024-03-22 17:24:51.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:24:51.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:24:51.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.1485ms
+2024-03-22 17:24:51.557 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.0582ms
+2024-03-22 17:24:51.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:24:51.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 84.6979ms
+2024-03-22 17:25:06.377 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 17:25:06.440 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:25:06.460 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 17:25:07.528 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:25:07.661 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 17:25:07.792 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:25:07.822 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 17:25:07.853 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:25:07.859 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Admin'
+2024-03-22 17:25:07.865 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 17:25:07.888 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 17:25:07.894 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 17:25:07.899 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1435.9895ms
+2024-03-22 17:25:07.899 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 17:25:07.907 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1530.5439ms
+2024-03-22 17:26:25.951 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 17:26:26.344 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 17:26:26.345 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 17:26:26.443 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 17:26:26.443 +03:00 [INF] Hosting environment: Development
+2024-03-22 17:26:26.443 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 17:26:27.395 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 17:26:27.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 195.5459ms
+2024-03-22 17:26:27.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 17:26:27.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 17:26:27.614 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.8749ms
+2024-03-22 17:26:27.655 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.8335ms
+2024-03-22 17:26:27.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 17:26:27.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.4314ms
+2024-03-22 18:33:40.132 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:33:40.400 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:33:40.400 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:33:40.438 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:33:40.440 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:33:40.440 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:33:41.732 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:33:41.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 188.3181ms
+2024-03-22 18:33:41.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:33:41.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:33:41.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.0582ms
+2024-03-22 18:33:41.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.9359ms
+2024-03-22 18:33:42.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:33:42.118 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.8009ms
+2024-03-22 18:33:53.409 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 18:33:53.525 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 18:33:53.545 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:33:54.640 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:33:54.723 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:33:54.728 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 18:33:54.733 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1184.3965ms
+2024-03-22 18:33:54.733 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 18:33:54.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1329.7768ms
+2024-03-22 18:35:39.529 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:35:39.890 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:35:39.890 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:35:39.982 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:35:39.983 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:35:39.983 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:35:41.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:35:41.330 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 203.4558ms
+2024-03-22 18:35:41.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:35:41.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:35:41.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.0468ms
+2024-03-22 18:35:41.427 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.444ms
+2024-03-22 18:35:41.498 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:35:41.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.3666ms
+2024-03-22 18:36:06.260 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7145/users - application/json 48
+2024-03-22 18:36:06.372 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Post (User.Api)'
+2024-03-22 18:36:06.392 +03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:36:07.572 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:36:07.704 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-03-22 18:36:07.717 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Post (User.Api) in 1321.8288ms
+2024-03-22 18:36:07.717 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Post (User.Api)'
+2024-03-22 18:36:07.729 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7145/users - 400 null application/problem+json; charset=utf-8 1468.9235ms
+2024-03-22 18:36:26.091 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7145/users - application/json 52
+2024-03-22 18:36:26.094 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Post (User.Api)'
+2024-03-22 18:36:26.094 +03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:36:26.140 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:36:26.252 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-22 18:36:26.358 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 18:36:26.384 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Name] = N'Client'
+2024-03-22 18:36:26.413 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppUserAppRole] ([RoleId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 18:36:26.420 +03:00 [INF] Executing CreatedResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-22 18:36:26.422 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Post (User.Api) in 327.2685ms
+2024-03-22 18:36:26.422 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Post (User.Api)'
+2024-03-22 18:36:26.423 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7145/users - 201 null application/json; charset=utf-8 333.1243ms
+2024-03-22 18:36:48.525 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 52
+2024-03-22 18:36:48.528 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:36:48.532 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:36:48.545 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:37:24.653 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 18:37:24.700 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Common.Repository.AppDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Login'. The duplicate key value is (login).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:33d88ee8-7112-489c-bcbc-20aeef83ca12
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Login'. The duplicate key value is (login).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:33d88ee8-7112-489c-bcbc-20aeef83ca12
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-03-22 18:37:24.882 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 36350.6013ms
+2024-03-22 18:37:24.883 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:37:24.885 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Login'. The duplicate key value is (login).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:33d88ee8-7112-489c-bcbc-20aeef83ca12
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Common.Repository.SqlServerBaseReository`1.UpdateAsync(TEntity item, CancellationToken cancellationToken) in D:\учёба\курсы ITA\1 - ToDo\Common.Repository\SqlServerBaseReository.cs:line 64
+   at UserServices.UserService.UpdateAsync(UserDto newItem, CancellationToken token) in D:\учёба\курсы ITA\1 - ToDo\User.Service\UserService.cs:line 114
+   at UserAPI.Controllers.UserController.Put(UserDto newItem) in D:\учёба\курсы ITA\1 - ToDo\User.Api\Controllers\UserController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-22 18:37:25.283 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 500 null text/plain; charset=utf-8 36758.2054ms
+2024-03-22 18:40:43.712 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:40:44.321 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:40:44.321 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:40:44.369 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:40:44.369 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:40:44.369 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:40:45.462 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:40:45.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 187.05ms
+2024-03-22 18:40:45.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:40:45.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:40:45.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.1858ms
+2024-03-22 18:40:45.722 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.307ms
+2024-03-22 18:40:45.779 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:40:45.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.7784ms
+2024-03-22 18:43:19.541 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 50
+2024-03-22 18:43:19.650 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:43:19.671 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:43:21.643 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:43:35.101 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[@__newItem_Login_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__newItem_Login_0
+2024-03-22 18:43:53.360 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 33686.608ms
+2024-03-22 18:43:53.361 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:43:53.365 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The instance of entity type 'AppUser' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Common.Repository.SqlServerBaseReository`1.UpdateAsync(TEntity item, CancellationToken cancellationToken)
+   at UserServices.UserService.UpdateAsync(UserDto newItem, CancellationToken token) in D:\учёба\курсы ITA\1 - ToDo\User.Service\UserService.cs:line 115
+   at UserAPI.Controllers.UserController.Put(UserDto newItem) in D:\учёба\курсы ITA\1 - ToDo\User.Api\Controllers\UserController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-22 18:43:53.478 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 500 null text/plain; charset=utf-8 33937.899ms
+2024-03-22 18:44:39.193 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:44:39.616 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:44:39.616 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:44:39.681 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:44:39.682 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:44:39.682 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:44:40.825 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:44:40.991 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 169.8188ms
+2024-03-22 18:44:41.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:44:41.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:44:41.041 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.9229ms
+2024-03-22 18:44:41.079 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.1241ms
+2024-03-22 18:44:41.146 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:44:41.241 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.3211ms
+2024-03-22 18:45:33.562 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:45:33.846 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:45:33.846 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:45:33.897 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:45:33.897 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:45:33.897 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:45:35.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:45:35.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 269.6122ms
+2024-03-22 18:45:35.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:45:35.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:45:35.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.4539ms
+2024-03-22 18:45:35.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.2353ms
+2024-03-22 18:45:35.830 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:45:35.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.1848ms
+2024-03-22 18:46:05.834 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 52
+2024-03-22 18:46:05.941 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:46:05.960 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:46:07.066 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:46:07.291 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__newItem_Login_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__newItem_Login_0
+2024-03-22 18:46:07.392 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Login], [PasswordHash])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-03-22 18:46:07.422 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Common.Repository.AppDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Login'. The duplicate key value is (login).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:bb33465b-ab72-466e-8d90-df86fe5588b7
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Login'. The duplicate key value is (login).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:bb33465b-ab72-466e-8d90-df86fe5588b7
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-03-22 18:46:07.570 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 1607.2004ms
+2024-03-22 18:46:07.571 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:46:07.574 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users_Login'. The duplicate key value is (login).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:bb33465b-ab72-466e-8d90-df86fe5588b7
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Common.Repository.SqlServerBaseReository`1.UpdateAsync(TEntity item, CancellationToken cancellationToken) in D:\учёба\курсы ITA\1 - ToDo\Common.Repository\SqlServerBaseReository.cs:line 64
+   at UserServices.UserService.UpdateAsync(UserDto newItem, CancellationToken token) in D:\учёба\курсы ITA\1 - ToDo\User.Service\UserService.cs:line 114
+   at UserAPI.Controllers.UserController.Put(UserDto newItem) in D:\учёба\курсы ITA\1 - ToDo\User.Api\Controllers\UserController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-22 18:46:07.606 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 500 null text/plain; charset=utf-8 1772.409ms
+2024-03-22 18:46:44.202 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 52
+2024-03-22 18:46:44.211 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:46:44.212 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(UserServices.dto.UserDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:46:44.262 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:46:44.271 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__newItem_Login_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__newItem_Login_0
+2024-03-22 18:51:19.776 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:51:20.056 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:51:20.057 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:51:20.155 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:51:20.156 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:51:20.156 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:51:21.077 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:51:21.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 172.5421ms
+2024-03-22 18:51:21.260 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:51:21.260 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:51:21.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.3323ms
+2024-03-22 18:51:21.304 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.5902ms
+2024-03-22 18:51:21.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:51:21.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.3846ms
+2024-03-22 18:52:01.794 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:52:02.208 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:52:02.209 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:52:02.317 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:52:02.318 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:52:02.318 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:52:03.250 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:52:03.432 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 186.1329ms
+2024-03-22 18:52:03.446 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:52:03.446 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:52:03.460 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 13.7355ms
+2024-03-22 18:52:03.502 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.2931ms
+2024-03-22 18:52:03.563 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:52:03.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.4088ms
+2024-03-22 18:52:25.251 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 18:52:25.361 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 18:52:25.383 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:52:26.504 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:52:26.587 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:52:26.592 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 18:52:26.597 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 1210.929ms
+2024-03-22 18:52:26.597 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 18:52:26.603 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 1352.3642ms
+2024-03-22 18:52:46.606 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 38
+2024-03-22 18:52:46.620 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:52:46.623 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:52:46.666 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:52:46.829 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 205.7587ms
+2024-03-22 18:52:46.830 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:52:46.832 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The instance of entity type 'AppUser' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Common.Repository.SqlServerBaseReository`1.UpdateAsync(TEntity item, CancellationToken cancellationToken)
+   at UserServices.UserService.UpdateAsync(UserPutDto newItem, CancellationToken token) in D:\учёба\курсы ITA\1 - ToDo\User.Service\UserService.cs:line 114
+   at UserAPI.Controllers.UserController.Put(UserPutDto newItem) in D:\учёба\курсы ITA\1 - ToDo\User.Api\Controllers\UserController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-22 18:52:46.874 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 500 null text/plain; charset=utf-8 267.7748ms
+2024-03-22 18:53:28.234 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 38
+2024-03-22 18:53:28.244 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:53:28.245 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:53:28.257 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:55:49.936 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:55:50.348 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:55:50.348 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:55:50.391 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:55:50.392 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:55:50.392 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:55:51.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:55:51.690 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 173.9894ms
+2024-03-22 18:55:51.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:55:51.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:55:51.735 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.0559ms
+2024-03-22 18:55:51.779 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.0175ms
+2024-03-22 18:55:51.854 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:55:51.953 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.156ms
+2024-03-22 18:56:08.943 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 39
+2024-03-22 18:56:09.056 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:56:09.078 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:56:10.195 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:56:13.547 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__newItem_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newItem_Id_0
+2024-03-22 18:56:13.690 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 4608.7488ms
+2024-03-22 18:56:13.691 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:56:13.694 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The instance of entity type 'AppUser' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Common.Repository.SqlServerBaseReository`1.UpdateAsync(TEntity item, CancellationToken cancellationToken)
+   at UserServices.UserService.UpdateAsync(UserPutDto newItem, CancellationToken token) in D:\учёба\курсы ITA\1 - ToDo\User.Service\UserService.cs:line 115
+   at UserAPI.Controllers.UserController.Put(UserPutDto newItem) in D:\учёба\курсы ITA\1 - ToDo\User.Api\Controllers\UserController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-22 18:56:13.756 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 500 null text/plain; charset=utf-8 4814.2635ms
+2024-03-22 18:56:20.642 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 39
+2024-03-22 18:56:20.647 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:56:20.648 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:56:20.696 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:56:34.206 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__newItem_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newItem_Id_0
+2024-03-22 18:56:52.418 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 18:56:52.692 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 18:56:52.692 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 18:56:52.782 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 18:56:52.782 +03:00 [INF] Hosting environment: Development
+2024-03-22 18:56:52.783 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 18:56:54.230 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 18:56:54.480 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 250.3361ms
+2024-03-22 18:56:54.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 18:56:54.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 18:56:54.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.11ms
+2024-03-22 18:56:54.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.3891ms
+2024-03-22 18:56:54.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 18:56:54.879 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.0965ms
+2024-03-22 18:57:09.855 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 35
+2024-03-22 18:57:09.966 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 18:57:09.987 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 18:57:11.072 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 18:57:18.745 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[@__newItem_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newItem_Id_0
+2024-03-22 19:03:27.658 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-22 19:03:28.049 +03:00 [INF] Now listening on: https://localhost:7145
+2024-03-22 19:03:28.049 +03:00 [INF] Now listening on: http://localhost:5119
+2024-03-22 19:03:28.133 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 19:03:28.134 +03:00 [INF] Hosting environment: Development
+2024-03-22 19:03:28.134 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\User.Api
+2024-03-22 19:03:28.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-03-22 19:03:29.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 176.1706ms
+2024-03-22 19:03:29.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-22 19:03:29.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-03-22 19:03:29.147 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.5545ms
+2024-03-22 19:03:29.176 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.9932ms
+2024-03-22 19:03:29.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-03-22 19:03:29.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.8492ms
+2024-03-22 19:03:52.529 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 39
+2024-03-22 19:03:52.638 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 19:03:52.658 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 19:03:54.726 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 19:04:00.128 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__newItem_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newItem_Id_0
+2024-03-22 19:04:00.217 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Login] = @p0, [PasswordHash] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-03-22 19:04:00.241 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-22 19:04:00.248 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 7586.6918ms
+2024-03-22 19:04:00.249 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 19:04:00.257 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 200 null application/json; charset=utf-8 7727.7451ms
+2024-03-22 19:07:28.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 19:07:28.335 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 19:07:28.341 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 19:07:28.384 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 19:07:28.388 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 19:07:28.389 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 19:07:28.389 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 47.9181ms
+2024-03-22 19:07:28.389 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 19:07:28.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 68.523ms
+2024-03-22 19:07:42.592 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7145/users - application/json 38
+2024-03-22 19:07:42.597 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 19:07:42.598 +03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(User.Service.dto.UserPutDto) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 19:07:42.612 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 19:07:42.619 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__newItem_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newItem_Id_0
+2024-03-22 19:07:42.622 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Login] = @p0, [PasswordHash] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2024-03-22 19:07:42.622 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.UserGetDto'.
+2024-03-22 19:07:42.622 +03:00 [INF] Executed action UserAPI.Controllers.UserController.Put (User.Api) in 24.5976ms
+2024-03-22 19:07:42.622 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.Put (User.Api)'
+2024-03-22 19:07:42.623 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7145/users - 200 null application/json; charset=utf-8 30.6087ms
+2024-03-22 19:07:46.113 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7145/users - null null
+2024-03-22 19:07:46.114 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 19:07:46.114 +03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32]) on controller UserAPI.Controllers.UserController (User.Api).
+2024-03-22 19:07:46.115 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 19:07:46.116 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-22 19:07:46.116 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserServices.dto.UserGetDto, User.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-22 19:07:46.116 +03:00 [INF] Executed action UserAPI.Controllers.UserController.GetAll (User.Api) in 2.6215ms
+2024-03-22 19:07:46.116 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.UserController.GetAll (User.Api)'
+2024-03-22 19:07:46.117 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7145/users - 200 null application/json; charset=utf-8 4.0887ms

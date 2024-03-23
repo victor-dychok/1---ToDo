@@ -19,3 +19,6 @@ D:\учёба\курсы ITA\1 - ToDo\User.Service\obj\Debug\net8.0\User.Service
 D:\учёба\курсы ITA\1 - ToDo\User.Service\obj\Debug\net8.0\refint\User.Service.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Service\obj\Debug\net8.0\User.Service.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Service\obj\Debug\net8.0\ref\User.Service.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Service\obj\Debug\net8.0\User.Service.sourcelink.json
+D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Api.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Api.pdb

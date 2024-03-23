@@ -9,7 +9,7 @@ namespace Common.Api
 {
     public static class EHMiddlewereExtensions
     {
-        public static IApplicationBuilder UseExeptionHendler(this IApplicationBuilder app)
+        public static IApplicationBuilder UseCustomExceptionHandler(this IApplicationBuilder app)
         {
             app.UseMiddleware<ExeptionHendlerMiddleware>();
             return app;

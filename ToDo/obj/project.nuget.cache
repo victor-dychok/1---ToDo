@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S5k5ImliXqiVYJISO9iWdzxtfiOkoVn5fX7GlCNTlSgNQPr833AZcaoZaSwfPmeGBrN5U4+uDauRvbm5wUznjw==",
+  "dgSpecHash": "LWRHuxvywBu6iuTgeQd5bM9IK+WGc1ZiLTEbhZ4UOfIMnhGIZ1DxOGB+o5E+SwQrj33Hu7ZSa4vg4QrwKGpT7Q==",
   "success": true,
   "projectFilePath": "D:\\учёба\\курсы ITA\\1 - ToDo\\ToDo\\ToDo.Api.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\vitia\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.3\\microsoft.aspnetcore.authentication.jwtbearer.8.0.3.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
