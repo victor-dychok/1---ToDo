@@ -1,0 +1,43 @@
+2024-03-24 14:13:58.078 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-24 14:13:59.072 +03:00 [INF] Now listening on: https://localhost:7104
+2024-03-24 14:13:59.072 +03:00 [INF] Now listening on: http://localhost:5148
+2024-03-24 14:13:59.115 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-24 14:13:59.115 +03:00 [INF] Hosting environment: Development
+2024-03-24 14:13:59.116 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\Auth.Api
+2024-03-24 14:14:00.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7104/swagger/index.html - null null
+2024-03-24 14:14:01.069 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7104/swagger/index.html - 200 null text/html;charset=utf-8 281.684ms
+2024-03-24 14:14:01.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7104/_vs/browserLink - null null
+2024-03-24 14:14:01.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7104/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-24 14:14:01.100 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7104/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 5.3532ms
+2024-03-24 14:14:01.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7104/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.8871ms
+2024-03-24 14:14:01.222 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7104/swagger/v1/swagger.json - null null
+2024-03-24 14:14:01.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7104/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.7126ms
+2024-03-24 14:14:18.712 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7104/Auth/CreateJwtToken - application/json 48
+2024-03-24 14:14:19.775 +03:00 [INF] Executing endpoint 'UserAPI.Controllers.AuthController.Post (Auth.Api)'
+2024-03-24 14:14:19.809 +03:00 [INF] Route matched with {action = "Post", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Auth.Api.dto.AuthDto) on controller UserAPI.Controllers.AuthController (Auth.Api).
+2024-03-24 14:14:24.790 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+2024-03-24 14:14:25.307 +03:00 [INF] Executed DbCommand (79ms) [Parameters=[@__Trim_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Login], [u].[PasswordHash]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__Trim_0
+2024-03-24 14:14:25.402 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__auth_Login_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[RoleId], [a].[UserId]
+FROM [AppUserAppRole] AS [a]
+INNER JOIN [Users] AS [u] ON [a].[UserId] = [u].[Id]
+WHERE [u].[Login] = @__auth_Login_0
+2024-03-24 14:14:25.423 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_RoleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[Name]
+FROM [AppUserRole] AS [a]
+WHERE [a].[Id] = @__role_RoleId_0
+2024-03-24 14:14:25.647 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2024-03-24 14:14:25.670 +03:00 [INF] Executing OkObjectResult, writing value of type 'UserServices.dto.JwtTokenDto'.
+2024-03-24 14:14:25.679 +03:00 [INF] Executed action UserAPI.Controllers.AuthController.Post (Auth.Api) in 5866.6321ms
+2024-03-24 14:14:25.679 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.AuthController.Post (Auth.Api)'
+2024-03-24 14:14:25.686 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7104/Auth/CreateJwtToken - 200 null application/json; charset=utf-8 6974.024ms

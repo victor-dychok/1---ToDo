@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "authDto",
-        "Type": "Auth.Api.dto.AuthDto",
+        "Name": "comand",
+        "Type": "Auth.Application.Comands.CreateJwtToken.CreateJwtTokenComand",
         "IsRequired": true
       }
     ],

@@ -3,17 +3,17 @@ using ToDoBL.dto;
 using ToDoDomain;
 using AutoMapper.Internal;
 using AutoMapper;
-using Common.Domain;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using ToDoBL.Validators;
 using FluentValidation;
 using System.Reflection.Metadata.Ecma335;
-using Common.BL;
 using Common.Repository;
 using ToDo.BL;
 using Common.Api.Service;
-using Common.BL.Exeptions;
+using Common.Application.Abstraction.Percistance;
+using Common.Application.Exeptions;
+using Application.Common.Domain;
 
 namespace ToDoBL
 {

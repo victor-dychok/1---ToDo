@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.Repository
+namespace Application.Infrastructure.Common.Percistance
 {
     public class BaseRepository<TEntity>// : IRepository<TEntity> where TEntity : class, new()
     {

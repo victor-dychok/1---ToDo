@@ -1,5 +1,4 @@
-﻿using Common.Domain;
-using Common.Repository;
+﻿using Common.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +12,10 @@ using ToDoDomain;
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using ToDo.BL;
-using UserServices;
+using Common.Application.Abstraction.Percistance;
+using Application.Infrastructure.Common.Percistance;
 using Common.Api.Service;
+using Application.Common.Domain;
 
 namespace ToDoBL
 {
@@ -30,7 +31,6 @@ namespace ToDoBL
             services.AddScoped<IRepository<AppUserAppRole>, SqlServerBaseReository<AppUserAppRole>>();
             services.AddTransient<IRepository<RefreshToken>, SqlServerBaseReository<RefreshToken>>();
             services.AddScoped<IRepository<AppUserRole>, SqlServerBaseReository<AppUserRole>>();
-            services.AddScoped<IUserService, UserService>();
 
             services.AddValidatorsFromAssemblies(new[] { Assembly.GetExecutingAssembly()}, includeInternalTypes: true);
 

@@ -14,3 +14,7 @@ D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\refint\ToDo.D
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\ToDo.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\ref\ToDo.Domain.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\obj\Debug\net8.0\ToDo.Domain.sourcelink.json
+D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\bin\Debug\net8.0\Common.Api.dll
+D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\bin\Debug\net8.0\Common.Application.dll
+D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\bin\Debug\net8.0\Common.Api.pdb
+D:\учёба\курсы ITA\1 - ToDo\ToDo.Domain\bin\Debug\net8.0\Common.Application.pdb

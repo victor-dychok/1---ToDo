@@ -16,3 +16,5 @@ D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\refint\
 D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\Common.Repository.pdb
 D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\ref\Common.Repository.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.Repository\obj\Debug\net8.0\Common.Repository.sourcelink.json
+D:\учёба\курсы ITA\1 - ToDo\Common.Repository\bin\Debug\net8.0\Common.Application.dll
+D:\учёба\курсы ITA\1 - ToDo\Common.Repository\bin\Debug\net8.0\Common.Application.pdb

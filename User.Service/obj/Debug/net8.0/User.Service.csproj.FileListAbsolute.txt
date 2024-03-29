@@ -8,10 +8,8 @@ D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\User.Service
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\User.Service.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.BL.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Domain.dll
-D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Repository.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\ToDo.Domain.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.BL.pdb
-D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Repository.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\ToDo.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Service\obj\Debug\net8.0\User.Ser.371CA9EE.Up2Date
@@ -22,3 +20,7 @@ D:\учёба\курсы ITA\1 - ToDo\User.Service\obj\Debug\net8.0\ref\User.Ser
 D:\учёба\курсы ITA\1 - ToDo\User.Service\obj\Debug\net8.0\User.Service.sourcelink.json
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Api.pdb
+D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Application.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Application.pdb
+D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Percistance.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Service\bin\Debug\net8.0\Common.Percistance.pdb

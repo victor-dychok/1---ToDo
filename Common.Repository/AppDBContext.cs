@@ -1,5 +1,5 @@
 ﻿
-using Common.Domain;
+using Application.Common.Domain;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ToDoDomain;
 
-namespace Common.Repository
+namespace Application.Infrastructure.Common.Percistance
 {
     public class AppDBContext : DbContext
     {

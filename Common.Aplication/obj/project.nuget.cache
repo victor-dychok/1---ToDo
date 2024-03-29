@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KMFtscTQxrBvy2oS4RJRFdzAYdqWB4B2ylO+IeqGs5BD3NaDEvFCm/kcJhjrOxw306G7S/yjr3Y/8y+n/8RQ0Q==",
+  "success": true,
+  "projectFilePath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitia\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

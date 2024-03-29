@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "VPTEJrSTcoWD4M5knsNqFfc2dNcTvbUifE07PJB9ksYfCKg6aHxyk0AISzEWP7IoszmX/0wo2mAiqK4zuiokoQ==",
+  "dgSpecHash": "LITafN2g+luYS7iCQ3uI0y58EdiUBcvOIoiK1No6OVMPXd6rXKjNGFTGZFakK4n0nhN15k8jochkN98LP0WqsQ==",
   "success": true,
-  "projectFilePath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Repository.csproj",
+  "projectFilePath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitia\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vitia\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\vitia\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",

@@ -10,3 +10,9 @@ D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\refint\Comm
 D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\Common.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\ref\Common.Domain.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\Common.Domain.sourcelink.json
+D:\учёба\курсы ITA\1 - ToDo\Common.Domain\bin\Debug\net8.0\Common.Api.dll
+D:\учёба\курсы ITA\1 - ToDo\Common.Domain\bin\Debug\net8.0\Common.Application.dll
+D:\учёба\курсы ITA\1 - ToDo\Common.Domain\bin\Debug\net8.0\Common.Api.pdb
+D:\учёба\курсы ITA\1 - ToDo\Common.Domain\bin\Debug\net8.0\Common.Application.pdb
+D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\Common.Domain.csproj.AssemblyReference.cache
+D:\учёба\курсы ITA\1 - ToDo\Common.Domain\obj\Debug\net8.0\Common.D.8CBE4322.Up2Date

@@ -1,4 +1,3 @@
-using Common.Domain;
 using Common.Repository;
 using Microsoft.AspNetCore.Builder;
 using Serilog;
@@ -11,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using System.Text;
 using Microsoft.OpenApi.Models;
 using System.Net;
+using Application.Users.Application;
+using Application.Infrastructure.Common.Percistance;
+using Common.Application;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
@@ -21,30 +23,28 @@ Log.Logger = new LoggerConfiguration()
 var builder = WebApplication.CreateBuilder(args);
 WebApplication app = null;
 
-try
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddSwaggerGen(options =>
 {
-    // Add services to the container.
-
-    builder.Services.AddControllers();
-    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-    builder.Services.AddEndpointsApiExplorer();
-
-    builder.Services.AddSwaggerGen(options =>
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
-        options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-        {
-            Description = """
+        Description = """
                           JWT Authorization header using the Bearer scheme. \r\n\r\n
                                                 Enter 'Bearer' [space] and then your token in the text input below.
                                                 \r\n\r\nExample: 'Bearer 12345abcdef'
                           """,
-            Name = "Authorization",
-            In = ParameterLocation.Header,
-            Type = SecuritySchemeType.ApiKey,
-            Scheme = "Bearer"
-        });
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
 
-        options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
         {
             {
                 new OpenApiSecurityScheme
@@ -61,48 +61,54 @@ try
                 new List<string>()
             }
         });
+});
+
+builder.Services.AddUserServices();
+builder.Services.AddCommonAplication();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddTodoDatabase(builder.Configuration);
+//builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddMemoryCache();
+
+builder.Services.AddAuthorization();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+        };
     });
 
-    builder.Services.AddUserServices();
-    builder.Services.AddHttpContextAccessor();
-    builder.Services.AddTodoDatabase(builder.Configuration);
-    builder.Services.AddFluentValidationAutoValidation();
+builder.Host.UseSerilog();
+app = builder.Build();
+//app.UseExeptionHendler();
 
-    builder.Services.AddAuthorization();
-    builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-        .AddJwtBearer(options =>
-        {
-            options.TokenValidationParameters = new TokenValidationParameters
-            {
-                ValidateIssuer = true,
-                ValidateAudience = true,
-                ValidateLifetime = true,
-                ValidateIssuerSigningKey = true,
-                ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                ValidAudience = builder.Configuration["Jwt:Audience"],
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
-            };
-        });
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-    builder.Host.UseSerilog();
-    app = builder.Build();
-    //app.UseExeptionHendler();
+app.UseHttpsRedirection();
 
-    // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
-    {
-        app.UseSwagger();
-        app.UseSwaggerUI();
-    }
+app.UseAuthentication();
+app.UseAuthorization();
 
-    app.UseHttpsRedirection();
+app.MapControllers();
 
-    app.UseAuthentication();
-    app.UseAuthorization();
+app.Run();
 
-    app.MapControllers();
-
-    app.Run();
+try
+{
+ 
 }
 catch (Exception ex)
 {

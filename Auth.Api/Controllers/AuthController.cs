@@ -1,9 +1,12 @@
 ﻿using Auth.Api.dto;
 using Auth.Api.Services;
+using Auth.Application.Comands.CreateJwtToken;
+using Auth.Application.Comands.RefreshJwtToken;
+using Auth.Application.Query;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using UserServices;
 
 namespace UserAPI.Controllers
 {
@@ -12,35 +15,27 @@ namespace UserAPI.Controllers
     [Route("[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly IAutnService _authService;
-        private readonly IUserService _userService;
-        public AuthController(IAutnService authService, IUserService userService)
-        {
-            _authService = authService;
-            _userService = userService;
-        }
-
         [AllowAnonymous]
         [HttpPost("CreateJwtToken")]
-        public async Task<IActionResult> Post(AuthDto authDto)
+        public async Task<IActionResult> Post(CreateJwtTokenComand comand, IMediator mediator, CancellationToken cancellation)
         {
-            var token = await _authService.GetJwtTokenAsync(authDto);
+            var token = await mediator.Send(comand, cancellation);
             return Ok(token);
         }
 
         [AllowAnonymous]
         [HttpPost("RefreshJwtToken")]
-        public async Task<IActionResult> Post(string jwtToken, CancellationToken cancellation)
+        public async Task<IActionResult> Post(string jwtToken, IMediator mediator, CancellationToken cancellation)
         {
-            var token = await _authService.GetJwtByRefreshTokenAsync(jwtToken, cancellation);
+            var token = await mediator.Send(new RefreshJwtTokenComand() { RefreshToken = jwtToken }, cancellation);
             return Ok(token);
         }
-
+        
         [HttpGet("GetMyInfo")]
-        public async Task<IActionResult> GetMyInfo(CancellationToken cancellationToken)
+        public async Task<IActionResult> GetMyInfo(IMediator mediator, CancellationToken cancellationToken)
         {
             var currentId = User.FindFirst(ClaimTypes.NameIdentifier)!;
-            var user = await _userService.GetByIdOrDefaultAsync(int.Parse(currentId.Value), cancellationToken);
+            var user = await mediator.Send(new GetByIdQuery() { Id = int.Parse(currentId.Value) }, cancellationToken);
             return Ok(user);
         }
     }

@@ -3,7 +3,6 @@ D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.Generat
 D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.AssemblyInfoInputs.cache
 D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.AssemblyInfo.cs
 D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.csproj.CoreCompileInputs.cache
-D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\appsettings.Development.json
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\appsettings.json
@@ -15,7 +14,6 @@ D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\User.Api.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\AutoMapper.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Azure.Core.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Azure.Identity.dll
-D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\FluentValidation.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -25,7 +23,6 @@ D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.Entity
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -70,15 +67,9 @@ D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\runtimes\win\lib
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.BL.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Domain.dll
-D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Repository.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\ToDo.Domain.dll
-D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\User.Service.dll
-D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\User.Service.pdb
-D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.BL.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Domain.pdb
-D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Repository.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\ToDo.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\staticwebassets.development.json
@@ -99,3 +90,14 @@ D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\SharpGrip.Fluent
 D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.sourcelink.json
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Api.pdb
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Auth.Application.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Application.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Percistance.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Users.Application.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Users.Application.pdb
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Auth.Application.pdb
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Application.pdb
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Percistance.pdb
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\MediatR.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.MvcApplicationPartsAssemblyInfo.cs

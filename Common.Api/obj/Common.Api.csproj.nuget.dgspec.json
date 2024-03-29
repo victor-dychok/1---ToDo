@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj": {
-                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj"
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj": {
+    "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj",
-        "projectName": "Common.BL",
-        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj",
+        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj",
+        "projectName": "Common.Application",
+        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj",
         "packagesPath": "C:\\Users\\vitia\\.nuget\\packages\\",
-        "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\obj\\",
+        "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -124,6 +124,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

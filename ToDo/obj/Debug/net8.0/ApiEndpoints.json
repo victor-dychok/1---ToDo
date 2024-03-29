@@ -8,22 +8,22 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "offset",
+        "Name": "Offset",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "ownerId",
+        "Name": "Limit",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "lable",
+        "Name": "Lable",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "limit",
+        "Name": "OwnerId",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
@@ -40,7 +40,7 @@
     "Parameters": [
       {
         "Name": "item",
-        "Type": "ToDoBL.dto.CreateToDo",
+        "Type": "ToDo.Application.Comands.Create.CreateToDoComand",
         "IsRequired": true
       }
     ],
@@ -55,8 +55,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "newItem",
-        "Type": "ToDoBL.dto.UpdateToDo",
+        "Name": "comand",
+        "Type": "ToDo.Application.Comands.Update.UpdateTodoComand",
         "IsRequired": true
       }
     ],
@@ -71,8 +71,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "Id",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -103,8 +108,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "Id",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -119,14 +129,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "comand",
+        "Type": "ToDo.Application.Comands.Patch.PatchTodoComand",
         "IsRequired": true
       },
       {
-        "Name": "isDone",
-        "Type": "System.Boolean",
-        "IsRequired": false
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -3,14 +3,13 @@
   "WorkspaceRootPath": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7372A82E-2BBF-4B6C-8E0B-42211700D484}|..\\ToDo.BL\\ToDo.BL.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.bl\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33975BEB-0515-4DCF-92C7-AEEB6B24F5C3}|..\\ToDo.Application\\ToDo.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.application\\query\\getbyid\\getlistbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4E44084-4B5B-4EE6-A623-CDCA1E575499}|ToDo.Api.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4E44084-4B5B-4EE6-A623-CDCA1E575499}|ToDo.Api.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33975BEB-0515-4DCF-92C7-AEEB6B24F5C3}|..\\ToDo.Application\\ToDo.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.application\\query\\getbyidisdone\\getlistbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7372A82E-2BBF-4B6C-8E0B-42211700D484}|..\\ToDo.BL\\ToDo.BL.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.bl\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33975BEB-0515-4DCF-92C7-AEEB6B24F5C3}|..\\ToDo.Application\\ToDo.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.application\\query\\getlist\\getlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,45 +19,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ToDoController.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\Controllers\\ToDoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ToDoController.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\Controllers\\ToDoController.cs",
-              "RelativeToolTip": "Controllers\\ToDoController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAawC0AAABNAAAA",
+              "DocumentIndex": 0,
+              "Title": "GetListByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetById\\GetListByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\ToDo.Application\\Query\\GetById\\GetListByIdQueryHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetById\\GetListByIdQueryHandler.cs",
+              "RelativeToolTip": "..\\ToDo.Application\\Query\\GetById\\GetListByIdQueryHandler.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T08:10:21.303Z",
+              "WhenOpened": "2024-03-29T15:11:40.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ToDoService.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.BL\\ToDoService.cs",
-              "RelativeDocumentMoniker": "..\\ToDo.BL\\ToDoService.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.BL\\ToDoService.cs",
-              "RelativeToolTip": "..\\ToDo.BL\\ToDoService.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAADwv7YAAAArAAAA",
+              "DocumentIndex": 1,
+              "Title": "GetListByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetByIdIsDone\\GetListByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\ToDo.Application\\Query\\GetByIdIsDone\\GetListByIdQueryHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetByIdIsDone\\GetListByIdQueryHandler.cs",
+              "RelativeToolTip": "..\\ToDo.Application\\Query\\GetByIdIsDone\\GetListByIdQueryHandler.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAYwDYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T07:48:03.533Z",
+              "WhenOpened": "2024-03-29T15:11:39.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IToDoService.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.BL\\IToDoService.cs",
-              "RelativeDocumentMoniker": "..\\ToDo.BL\\IToDoService.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.BL\\IToDoService.cs",
-              "RelativeToolTip": "..\\ToDo.BL\\IToDoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Title": "GetListQueryHandler.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetList\\GetListQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\ToDo.Application\\Query\\GetList\\GetListQueryHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetList\\GetListQueryHandler.cs",
+              "RelativeToolTip": "..\\ToDo.Application\\Query\\GetList\\GetListQueryHandler.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T07:48:02.624Z",
+              "WhenOpened": "2024-03-29T15:11:36.27Z",
               "EditorCaption": ""
             }
           ]

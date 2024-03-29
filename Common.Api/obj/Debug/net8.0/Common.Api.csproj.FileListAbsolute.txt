@@ -5,8 +5,6 @@ D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.csp
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\bin\Debug\net8.0\Common.Api.deps.json
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\bin\Debug\net8.0\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\bin\Debug\net8.0\Common.Api.pdb
-D:\учёба\курсы ITA\1 - ToDo\Common.Api\bin\Debug\net8.0\Common.BL.dll
-D:\учёба\курсы ITA\1 - ToDo\Common.Api\bin\Debug\net8.0\Common.BL.pdb
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.csproj.AssemblyReference.cache
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.csproj.Up2Date
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.dll
@@ -14,3 +12,5 @@ D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\refint\Common.
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.pdb
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\ref\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\Common.Api\obj\Debug\net8.0\Common.Api.sourcelink.json
+D:\учёба\курсы ITA\1 - ToDo\Common.Api\bin\Debug\net8.0\Common.Application.dll
+D:\учёба\курсы ITA\1 - ToDo\Common.Api\bin\Debug\net8.0\Common.Application.pdb

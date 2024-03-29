@@ -1,9 +1,7 @@
-using Common.Domain;
-using Common.Repository;
+
 using Microsoft.AspNetCore.Builder;
 using Serilog;
 using Serilog.Events;
-using UserServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Configuration;
@@ -12,6 +10,8 @@ using Microsoft.OpenApi.Models;
 using System.Net;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
 using Auth.Api.Services;
+using Application.Infrastructure.Common.Percistance;
+using Microsoft.EntityFrameworkCore;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Override("Microsoft", LogEventLevel.Information)

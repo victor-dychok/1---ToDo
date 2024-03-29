@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Common.Application.Abstraction.Percistance;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Common.Repository
+namespace Application.Infrastructure.Common.Percistance
 {
     public class SqlServerBaseReository<TEntity>(AppDBContext applicationDbContext) : IRepository<TEntity> where TEntity : class, new()
     {
@@ -55,7 +56,7 @@ namespace Common.Repository
             {
                 queryable = queryable.Take(limit.Value);
             }
-            return queryable.ToArray();
+            return await queryable.ToArrayAsync();
         }
 
         public async Task<TEntity?> UpdateAsync(TEntity item, CancellationToken cancellationToken = default)
@@ -77,6 +78,19 @@ namespace Common.Repository
             var set = _applicationDbContext.Set<TEntity>();
             return predicate == null ? await set.FirstOrDefaultAsync(cancellationToken) : await set.FirstOrDefaultAsync(predicate, cancellationToken);
 
+        }
+
+        public async Task<int> CountAsync(Expression<Func<TEntity, bool>>? predicate = null, CancellationToken token = default)
+        {
+            var queryable = _applicationDbContext.Set<TEntity>().AsQueryable();
+
+            if (predicate is not null)
+            {
+                queryable = queryable.Where(predicate);
+            }
+
+            var result = await queryable.ToArrayAsync();
+            return result.Count();
         }
     }
 }

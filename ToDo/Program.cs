@@ -1,7 +1,6 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using ToDo;
-using ToDoBL;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
 using Serilog;
 using Common.Repository;
@@ -10,6 +9,11 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Common.Api;
+using Common.Application.Behaviors;
+using MediatR;
+using Application.Infrastructure.Common.Percistance;
+using ToDo.Application;
+using Common.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +22,8 @@ var builder = WebApplication.CreateBuilder(args);
 try
 {
     builder.Services.AddControllers();
+    builder.Services.AddMemoryCache();
+    builder.Services.AddSingleton<ToDoMemoryCashe>();
     builder.Services.AddEndpointsApiExplorer();
 
     builder.Services.AddSwaggerGen(options =>
@@ -57,9 +63,11 @@ try
     builder.Services.AddSwaggerGen();
 
     builder.Services.AddToDoServices();
+    builder.Services.AddCommonAplication();
 
     builder.Services.AddFluentValidationAutoValidation();
     builder.Services.AddHttpContextAccessor();
+
 
     builder.Services.AddAuthorization();
     builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

@@ -1,5 +1,6 @@
-﻿using Common.BL;
-using Common.BL.Exeptions;
+﻿
+using Common.Application.Exeptions;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -36,6 +37,10 @@ namespace Common.Api
                     case NotFoundExeption badRequestException:
                         statusCode = HttpStatusCode.NotFound;
                         result = JsonSerializer.Serialize(badRequestException.Message);
+                        break;
+                    case ValidationException validationException:
+                         statusCode = HttpStatusCode.BadRequest;
+                        result = JsonSerializer.Serialize(validationException.Message);
                         break;
                     case BadRequestExeption badRequestException:
                         statusCode = HttpStatusCode.BadRequest;

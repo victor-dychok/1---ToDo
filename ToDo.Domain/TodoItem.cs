@@ -1,5 +1,4 @@
-﻿
-using Common.Domain;
+﻿using Application.Common.Domain;
 using System.ComponentModel.DataAnnotations;
 using System.Security.AccessControl;
 

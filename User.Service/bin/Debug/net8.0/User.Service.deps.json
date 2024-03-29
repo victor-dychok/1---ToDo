@@ -11,8 +11,9 @@
           "AutoMapper": "13.0.1",
           "BCrypt.Net-Next": "4.0.3",
           "Common.Api": "1.0.0",
+          "Common.Application": "1.0.0",
           "Common.BL": "1.0.0",
-          "Common.Repository": "1.0.0",
+          "Common.Percistance": "1.0.0",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -631,11 +632,17 @@
       },
       "Common.Api/1.0.0": {
         "dependencies": {
+          "Common.Application": "1.0.0",
           "Common.BL": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
         },
         "runtime": {
           "Common.Api.dll": {}
+        }
+      },
+      "Common.Application/1.0.0": {
+        "runtime": {
+          "Common.Application.dll": {}
         }
       },
       "Common.BL/1.0.0": {
@@ -648,15 +655,16 @@
           "Common.Domain.dll": {}
         }
       },
-      "Common.Repository/1.0.0": {
+      "Common.Percistance/1.0.0": {
         "dependencies": {
+          "Common.Application": "1.0.0",
           "Common.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
           "ToDo.Domain": "1.0.0"
         },
         "runtime": {
-          "Common.Repository.dll": {}
+          "Common.Percistance.dll": {}
         }
       },
       "ToDo.Domain/1.0.0": {
@@ -1107,6 +1115,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Common.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Common.BL/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1117,7 +1130,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Common.Repository/1.0.0": {
+    "Common.Percistance/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

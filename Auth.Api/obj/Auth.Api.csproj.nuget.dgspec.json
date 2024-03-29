@@ -33,8 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\учёба\\курсы ITA\\1 - ToDo\\User.Service\\User.Service.csproj": {
-                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\User.Service\\User.Service.csproj"
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Auth.Application\\Auth.Application.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Auth.Application\\Auth.Application.csproj"
+              },
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj"
+              },
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj"
               }
             }
           }
@@ -54,6 +60,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.0, )"
@@ -106,6 +120,107 @@
         }
       }
     },
+    "D:\\учёба\\курсы ITA\\1 - ToDo\\Auth.Application\\Auth.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Auth.Application\\Auth.Application.csproj",
+        "projectName": "Auth.Application",
+        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Auth.Application\\Auth.Application.csproj",
+        "packagesPath": "C:\\Users\\vitia\\.nuget\\packages\\",
+        "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Auth.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vitia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj"
+              },
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Domain\\Common.Domain.csproj"
+              },
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Api\\Common.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -135,8 +250,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj": {
-                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj"
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj"
               }
             }
           }
@@ -181,14 +296,14 @@
         }
       }
     },
-    "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj": {
+    "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj",
-        "projectName": "Common.BL",
-        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj",
+        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj",
+        "projectName": "Common.Application",
+        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj",
         "packagesPath": "C:\\Users\\vitia\\.nuget\\packages\\",
-        "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\obj\\",
+        "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -226,6 +341,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -274,7 +399,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Api\\Common.Api.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Api\\Common.Api.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -311,12 +440,12 @@
         }
       }
     },
-    "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Repository.csproj": {
+    "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Repository.csproj",
-        "projectName": "Common.Repository",
-        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Repository.csproj",
+        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj",
+        "projectName": "Common.Percistance",
+        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj",
         "packagesPath": "C:\\Users\\vitia\\.nuget\\packages\\",
         "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -340,6 +469,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj"
+              },
               "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Domain\\Common.Domain.csproj": {
                 "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Domain\\Common.Domain.csproj"
               },
@@ -442,107 +574,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\учёба\\курсы ITA\\1 - ToDo\\User.Service\\User.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\User.Service\\User.Service.csproj",
-        "projectName": "User.Service",
-        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\User.Service\\User.Service.csproj",
-        "packagesPath": "C:\\Users\\vitia\\.nuget\\packages\\",
-        "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\User.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\vitia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Api\\Common.Api.csproj": {
-                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Api\\Common.Api.csproj"
-              },
-              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj": {
-                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.BL\\Common.BL.csproj"
-              },
-              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Repository.csproj": {
-                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Repository.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "BCrypt.Net-Next": {
-              "target": "Package",
-              "version": "[4.0.3, )"
-            },
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.9.0, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[11.9.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

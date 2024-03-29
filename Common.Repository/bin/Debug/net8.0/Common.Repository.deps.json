@@ -11,7 +11,8 @@
           "Common.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
-          "ToDo.Domain": "1.0.0"
+          "ToDo.Domain": "1.0.0",
+          "Common.Application": "1.0.0.0"
         },
         "runtime": {
           "Common.Repository.dll": {}
@@ -574,6 +575,14 @@
         "runtime": {
           "ToDo.Domain.dll": {}
         }
+      },
+      "Common.Application/1.0.0.0": {
+        "runtime": {
+          "Common.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -975,6 +984,11 @@
     },
     "ToDo.Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Application/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -1,9 +1,14 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ToDo.BL;
+using ToDo.Application.Comands.Create;
+using ToDo.Application.Comands.Update;
+using ToDo.Application.Comands.Patch;
 using ToDo.Respounces;
-using ToDoBL;
-using ToDoBL.dto;
+using ToDo.Application.Comands.Delete;
+using ToDo.Application.Query.GetList;
+using ToDo.Application.Query.GetById;
+using ToDo.Application.Query.GetByIdIsDone;
 
 namespace ToDo.Controllers
 {
@@ -13,57 +18,44 @@ namespace ToDo.Controllers
     [Route("todos")]
     public class ToDoController : ControllerBase
     {
-        private readonly IToDoService _toDoService;
-        public ToDoController(IToDoService service) 
+        public ToDoController() 
         {
-            _toDoService = service;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll(int? offset, int? ownerId, string? lable, int? limit)
+        public async Task<IActionResult> GetAll([FromQuery] GetListQuery query, IMediator mediator, CancellationToken cancellationToken)
         {
-            var todos = await _toDoService.GetListAsync(offset, ownerId, lable, limit);
+            var todos = await mediator.Send(query, cancellationToken);
             HttpContext.Response.Headers.Append("X-Total-Count", todos.Count().ToString());
             return Ok(todos);
         }
 
         [HttpGet("{id:int}")]
-        public async Task<IActionResult> GetById(int id) 
+        public async Task<IActionResult> GetById([FromQuery] GetByIdQuery query, IMediator mediator, CancellationToken cancellationToken) 
         {
-
-            var item = await _toDoService.GetByIdAsync(id);
-            if (item == null)
-            {
-                return NotFound();
-            }
-            else return Ok(item);
+            var item = await mediator.Send(query, cancellationToken);
+            return Ok(item);
         }
 
         [HttpGet("{id:int}/IsDone")]
-        public async Task<IActionResult> GetByIdIsDone(int id, CancellationToken cancellationToken)
+        public async Task<IActionResult> GetByIdIsDone([FromQuery] GetByIdIsDoneQuery query, IMediator mediator, CancellationToken cancellationToken)
         {
-            var respItem = await _toDoService.GetByIdIsDoneAsync(id, cancellationToken);
+            var respItem = await mediator.Send(query, cancellationToken);
             var respounce = new ToDoIdFlagResp(respItem.Id, respItem.IsDone);
             return Ok(respounce);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(CreateToDo item)
+        public async Task<IActionResult> Post(CreateToDoComand item, IMediator mediator, CancellationToken cancellationToken)
         {
-            var postedItem = await _toDoService.AddAsync(item);
-            if(postedItem != null)
-            {
-                return Created("/todos", item);
-            }
-            else return BadRequest();
-
-
+            var postedItem = await mediator.Send(item, cancellationToken);
+            return Created($"/todos/{postedItem.Id}", postedItem);
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put(UpdateToDo newItem)
+        public async Task<IActionResult> Put(UpdateTodoComand comand, IMediator mediator, CancellationToken cancellationToken)
         {
-            var item = await _toDoService.UpdateAsync(newItem);
+            var item = await mediator.Send(comand, cancellationToken);
 
             if (item == null)
             {
@@ -76,9 +68,9 @@ namespace ToDo.Controllers
         }
 
         [HttpPatch("{id:int}/IsDone")]
-        public async Task<IActionResult> Putch(int id, bool isDone)
+        public async Task<IActionResult> Putch(PatchTodoComand comand, IMediator mediator, CancellationToken cancellationToken)
         {
-            var item = await _toDoService.PutchAsync(id, isDone);
+            var item = await mediator.Send(comand, cancellationToken);
             if (item == null)
             {
                 return NotFound();
@@ -91,9 +83,9 @@ namespace ToDo.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id, IMediator mediator, CancellationToken cancellationToken)
         {
-            var item = await _toDoService.DeleteAsync(id);
+            var item = await mediator.Send(new DeleteTodoComand { Id = id }, cancellationToken);
             return Ok(item);
         }
     }
