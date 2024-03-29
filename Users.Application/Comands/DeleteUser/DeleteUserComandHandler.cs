@@ -8,7 +8,6 @@ using AutoMapper;
 using Common.Api.Service;
 using Common.Application.Abstraction.Percistance;
 using Common.Application.Exeptions;
-using Common.Repository;
 using MediatR;
 using Microsoft.Extensions.Caching.Memory;
 using Users.Application.Comands.DeleteUser;

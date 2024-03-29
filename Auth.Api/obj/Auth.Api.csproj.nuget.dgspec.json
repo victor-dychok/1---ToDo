@@ -39,8 +39,8 @@
               "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj": {
                 "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Aplication\\Common.Application.csproj"
               },
-              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj": {
-                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj"
+              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Percistance\\Common.Percistance.csproj": {
+                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Percistance\\Common.Percistance.csproj"
               }
             }
           }
@@ -154,9 +154,6 @@
               },
               "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Domain\\Common.Domain.csproj": {
                 "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Domain\\Common.Domain.csproj"
-              },
-              "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj": {
-                "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj"
               }
             }
           }
@@ -440,14 +437,14 @@
         }
       }
     },
-    "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj": {
+    "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Percistance\\Common.Percistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj",
+        "projectUniqueName": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Percistance\\Common.Percistance.csproj",
         "projectName": "Common.Percistance",
-        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\Common.Percistance.csproj",
+        "projectPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Percistance\\Common.Percistance.csproj",
         "packagesPath": "C:\\Users\\vitia\\.nuget\\packages\\",
-        "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Repository\\obj\\",
+        "outputPath": "D:\\учёба\\курсы ITA\\1 - ToDo\\Common.Percistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,5 +1,4 @@
 ﻿using Application.Common.Domain;
-using Application.Infrastructure.Common.Percistance;
 using Common.Api.Service;
 using Common.Application.Abstraction.Percistance;
 using FluentValidation;

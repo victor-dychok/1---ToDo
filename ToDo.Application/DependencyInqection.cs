@@ -1,9 +1,7 @@
 ﻿using Application.Common.Domain;
-using Application.Infrastructure.Common.Percistance;
 using AutoMapper;
 using Common.Api.Service;
 using Common.Application.Abstraction.Percistance;
-using Common.Repository;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System;

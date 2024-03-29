@@ -4,7 +4,6 @@ using Common.Api.Service;
 using Common.Application.Abstraction.Percistance;
 using Common.Application.Exeptions;
 using Common.Application.Utils;
-using Common.Repository;
 using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;

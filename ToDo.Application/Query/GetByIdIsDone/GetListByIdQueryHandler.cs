@@ -4,7 +4,6 @@ using Common.Api.Service;
 using Common.Application.Abstraction.Percistance;
 using Common.Application.Exeptions;
 using MediatR;
-using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +12,7 @@ using System.Text.Json.Serialization;
 using System.Text.Json;
 using System.Threading.Tasks;
 using ToDoDomain;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace ToDo.Application.Query.GetByIdIsDone
 {

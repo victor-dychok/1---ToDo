@@ -10,11 +10,9 @@ D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\ToDo.App
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\Common.Application.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\Common.Domain.dll
-D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\Common.Percistance.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\ToDo.Domain.dll
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\Common.Application.pdb
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\Common.Domain.pdb
-D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\Common.Percistance.pdb
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\ToDo.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\bin\Debug\net8.0\Common.Api.pdb
 D:\учёба\курсы ITA\1 - ToDo\ToDo.Application\obj\Debug\net8.0\ToDo.App.AD959D57.Up2Date

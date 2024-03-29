@@ -14,11 +14,7 @@ D:\учёба\курсы ITA\1 - ToDo\Auth.Application\obj\Debug\net8.0\Auth.App
 D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\Common.Application.dll
 D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\Common.Domain.dll
-D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\Common.Percistance.dll
-D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\ToDo.Domain.dll
 D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\Common.Application.pdb
 D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\Common.Domain.pdb
-D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\Common.Percistance.pdb
 D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\Common.Api.pdb
-D:\учёба\курсы ITA\1 - ToDo\Auth.Application\bin\Debug\net8.0\ToDo.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\Auth.Application\obj\Debug\net8.0\Auth.App.E6399BD7.Up2Date

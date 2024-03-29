@@ -78,3 +78,17 @@ VALUES (@p0);
 2024-03-29 17:53:32.828 +03:00 [INF] Executed action UserAPI.Controllers.AuthController.Post (Auth.Api) in 2365.1185ms
 2024-03-29 17:53:32.829 +03:00 [INF] Executed endpoint 'UserAPI.Controllers.AuthController.Post (Auth.Api)'
 2024-03-29 17:53:32.835 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7104/Auth/CreateJwtToken - 200 null application/json; charset=utf-8 2461.3431ms
+2024-03-29 18:28:16.008 +03:00 [INF] User profile is available. Using 'C:\Users\vitia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-29 18:28:16.237 +03:00 [INF] Now listening on: https://localhost:7104
+2024-03-29 18:28:16.238 +03:00 [INF] Now listening on: http://localhost:5148
+2024-03-29 18:28:16.277 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-29 18:28:16.277 +03:00 [INF] Hosting environment: Development
+2024-03-29 18:28:16.277 +03:00 [INF] Content root path: D:\учёба\курсы ITA\1 - ToDo\Auth.Api
+2024-03-29 18:28:18.380 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7104/swagger/index.html - null null
+2024-03-29 18:28:18.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7104/swagger/index.html - 200 null text/html;charset=utf-8 323.8769ms
+2024-03-29 18:28:18.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7104/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-29 18:28:18.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7104/_vs/browserLink - null null
+2024-03-29 18:28:18.744 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7104/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 15.0383ms
+2024-03-29 18:28:18.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7104/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.1803ms
+2024-03-29 18:28:18.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7104/swagger/v1/swagger.json - null null
+2024-03-29 18:28:18.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7104/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.7059ms

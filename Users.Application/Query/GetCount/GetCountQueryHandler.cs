@@ -1,17 +1,9 @@
-﻿using Common.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using System.Text.Json;
-using System.Threading.Tasks;
-using UserServices.dto;
 using Microsoft.Extensions.Caching.Memory;
 using Common.Application.Abstraction.Percistance;
 using Application.Common.Domain;
 using MediatR;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Application.User.Application.Query.GetCount
 {

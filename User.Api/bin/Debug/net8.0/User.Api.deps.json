@@ -9,6 +9,7 @@
       "User.Api/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Common.Percistance": "1.0.0",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.3",
@@ -783,7 +784,6 @@
           "AutoMapper": "13.0.1",
           "Common.Application": "1.0.0",
           "Common.Domain": "1.0.0",
-          "Common.Percistance": "1.0.0",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "MediatR": "12.2.0",

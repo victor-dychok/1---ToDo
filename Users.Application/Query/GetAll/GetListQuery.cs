@@ -1,11 +1,4 @@
-﻿using Application.Users.Application;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ToDoDomain;
+﻿using MediatR;
 using UserServices.dto;
 
 namespace Application.Users.Application.Query.GetAll

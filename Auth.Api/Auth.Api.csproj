@@ -21,7 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Auth.Application\Auth.Application.csproj" />
     <ProjectReference Include="..\Common.Aplication\Common.Application.csproj" />
-    <ProjectReference Include="..\Common.Repository\Common.Percistance.csproj" />
+    <ProjectReference Include="..\Common.Percistance\Common.Percistance.csproj" />
   </ItemGroup>
 
 </Project>

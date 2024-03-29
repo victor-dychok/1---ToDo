@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using UserServices.dto;
 using AutoMapper;
-using Common.Repository;
 using Common.Api.Service;
 using Common.Application.Abstraction.Percistance;
 using Common.Application.Exeptions;

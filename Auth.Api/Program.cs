@@ -11,7 +11,6 @@ using System.Net;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
 using Auth.Api.Services;
 using Application.Infrastructure.Common.Percistance;
-using Microsoft.EntityFrameworkCore;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Override("Microsoft", LogEventLevel.Information)

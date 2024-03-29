@@ -3,13 +3,37 @@
   "WorkspaceRootPath": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33975BEB-0515-4DCF-92C7-AEEB6B24F5C3}|..\\ToDo.Application\\ToDo.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.application\\query\\getbyid\\getlistbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\query\\getcount\\getcountqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33975BEB-0515-4DCF-92C7-AEEB6B24F5C3}|..\\ToDo.Application\\ToDo.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.application\\query\\getbyidisdone\\getlistbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\query\\getbyid\\getbyidordefaultqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33975BEB-0515-4DCF-92C7-AEEB6B24F5C3}|..\\ToDo.Application\\ToDo.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\todo.application\\query\\getlist\\getlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\query\\getall\\getlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\query\\getall\\getlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\comands\\updateuser\\updateuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\comands\\resetuserpassword\\resetuserpasswordcomandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\comands\\deleteuser\\deleteusercomandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13CCEB06-77A3-4AB6-AAB0-EDF146AFBC27}|..\\Auth.Api\\Auth.Api.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E21338F-A9F6-4023-B90C-A8AD1319AEBB}|..\\Auth.Application\\Auth.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\auth.application\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E21338F-A9F6-4023-B90C-A8AD1319AEBB}|..\\Auth.Application\\Auth.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\auth.application\\authdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,41 +48,135 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetListByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetById\\GetListByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\ToDo.Application\\Query\\GetById\\GetListByIdQueryHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetById\\GetListByIdQueryHandler.cs",
-              "RelativeToolTip": "..\\ToDo.Application\\Query\\GetById\\GetListByIdQueryHandler.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAYwDsAAAAAAAAA",
+              "Title": "GetCountQueryHandler.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetCount\\GetCountQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Users.Application\\Query\\GetCount\\GetCountQueryHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetCount\\GetCountQueryHandler.cs",
+              "RelativeToolTip": "..\\Users.Application\\Query\\GetCount\\GetCountQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:11:40.458Z",
+              "WhenOpened": "2024-03-29T15:32:02.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetListByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetByIdIsDone\\GetListByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\ToDo.Application\\Query\\GetByIdIsDone\\GetListByIdQueryHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetByIdIsDone\\GetListByIdQueryHandler.cs",
-              "RelativeToolTip": "..\\ToDo.Application\\Query\\GetByIdIsDone\\GetListByIdQueryHandler.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAYwDYAAAANAAAA",
+              "Title": "GetByIdOrDefaultQueryHandler.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetById\\GetByIdOrDefaultQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Users.Application\\Query\\GetById\\GetByIdOrDefaultQueryHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetById\\GetByIdOrDefaultQueryHandler.cs",
+              "RelativeToolTip": "..\\Users.Application\\Query\\GetById\\GetByIdOrDefaultQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:11:39.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T15:31:52.141Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GetListQueryHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetList\\GetListQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\ToDo.Application\\Query\\GetList\\GetListQueryHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo.Application\\Query\\GetList\\GetListQueryHandler.cs",
-              "RelativeToolTip": "..\\ToDo.Application\\Query\\GetList\\GetListQueryHandler.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwEMAAAAAAAAA",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetAll\\GetListQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Users.Application\\Query\\GetAll\\GetListQueryHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetAll\\GetListQueryHandler.cs",
+              "RelativeToolTip": "..\\Users.Application\\Query\\GetAll\\GetListQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:11:36.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T15:31:34.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetListQuery.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetAll\\GetListQuery.cs",
+              "RelativeDocumentMoniker": "..\\Users.Application\\Query\\GetAll\\GetListQuery.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetAll\\GetListQuery.cs",
+              "RelativeToolTip": "..\\Users.Application\\Query\\GetAll\\GetListQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:31:23.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\Users.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\Users.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:31:04.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateUserRequestHandler.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\UpdateUser\\UpdateUserRequestHandler.cs",
+              "RelativeDocumentMoniker": "..\\Users.Application\\Comands\\UpdateUser\\UpdateUserRequestHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\UpdateUser\\UpdateUserRequestHandler.cs",
+              "RelativeToolTip": "..\\Users.Application\\Comands\\UpdateUser\\UpdateUserRequestHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:30:57.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResetUserPasswordComandHandler.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\ResetUserPassword\\ResetUserPasswordComandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Users.Application\\Comands\\ResetUserPassword\\ResetUserPasswordComandHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\ResetUserPassword\\ResetUserPasswordComandHandler.cs",
+              "RelativeToolTip": "..\\Users.Application\\Comands\\ResetUserPassword\\ResetUserPasswordComandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:30:52.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteUserComandHandler.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\DeleteUser\\DeleteUserComandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Users.Application\\Comands\\DeleteUser\\DeleteUserComandHandler.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\DeleteUser\\DeleteUserComandHandler.cs",
+              "RelativeToolTip": "..\\Users.Application\\Comands\\DeleteUser\\DeleteUserComandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:30:47.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Auth.Api\\Program.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Api\\Program.cs",
+              "RelativeToolTip": "..\\Auth.Api\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:26:30.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Application\\Mapping\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "..\\Auth.Application\\Mapping\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Application\\Mapping\\AutoMapperProfile.cs",
+              "RelativeToolTip": "..\\Auth.Application\\Mapping\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:26:24.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthDI.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Application\\AuthDI.cs",
+              "RelativeDocumentMoniker": "..\\Auth.Application\\AuthDI.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Application\\AuthDI.cs",
+              "RelativeToolTip": "..\\Auth.Application\\AuthDI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:26:12.663Z"
             }
           ]
         }

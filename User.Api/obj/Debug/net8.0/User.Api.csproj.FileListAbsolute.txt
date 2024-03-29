@@ -100,4 +100,3 @@ D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Applicati
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\Common.Percistance.pdb
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\MediatR.dll
 D:\учёба\курсы ITA\1 - ToDo\User.Api\bin\Debug\net8.0\MediatR.Contracts.dll
-D:\учёба\курсы ITA\1 - ToDo\User.Api\obj\Debug\net8.0\User.Api.MvcApplicationPartsAssemblyInfo.cs

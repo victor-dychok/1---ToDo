@@ -3,16 +3,10 @@ using Application.User.Application;
 using Application.Users.Application.Query.GetAll;
 using AutoMapper;
 using Common.Application.Abstraction.Percistance;
-using Common.Repository;
 using MediatR;
 using Microsoft.Extensions.Caching.Memory;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 using UserServices.dto;
 
 namespace ApplicationUser.Application.Query.GetAll

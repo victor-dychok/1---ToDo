@@ -11,14 +11,10 @@ D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Auth.Ap
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Common.Api.dll
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Common.Application.dll
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Common.Domain.dll
-D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Common.Percistance.dll
-D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\ToDo.Domain.dll
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Auth.Application.pdb
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Common.Application.pdb
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Common.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Common.Api.pdb
-D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\Common.Percistance.pdb
-D:\учёба\курсы ITA\1 - ToDo\Users.Application\bin\Debug\net8.0\ToDo.Domain.pdb
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\obj\Debug\net8.0\Users.Ap.B414D118.Up2Date
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\obj\Debug\net8.0\Users.Application.dll
 D:\учёба\курсы ITA\1 - ToDo\Users.Application\obj\Debug\net8.0\refint\Users.Application.dll
