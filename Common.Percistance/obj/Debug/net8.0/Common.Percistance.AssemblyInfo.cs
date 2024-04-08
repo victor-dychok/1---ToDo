@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Common.Percistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc74e3815e11ec11ff956d71fa44f2590d0d5df2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caaa98c25025f7d646c10fb12a0bcc61d137ac5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Common.Percistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Common.Percistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

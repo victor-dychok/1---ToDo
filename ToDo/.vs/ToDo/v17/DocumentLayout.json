@@ -3,37 +3,25 @@
   "WorkspaceRootPath": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\ToDo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\query\\getcount\\getcountqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B354FB-ADB3-4746-AA53-0759C15F1596}|..\\Common.Aplication\\Common.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\common.aplication\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\query\\getbyid\\getbyidordefaultqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B354FB-ADB3-4746-AA53-0759C15F1596}|..\\Common.Aplication\\Common.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\common.aplication\\behaviors\\contexttransactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\query\\getall\\getlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC6035FA-0805-43C2-A6EF-7DE542C81191}|..\\Common.Percistance\\Common.Percistance.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\common.percistance\\dbcontextdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\query\\getall\\getlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC6035FA-0805-43C2-A6EF-7DE542C81191}|..\\Common.Percistance\\Common.Percistance.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\common.percistance\\contexttransactioncreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B354FB-ADB3-4746-AA53-0759C15F1596}|..\\Common.Aplication\\Common.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\common.aplication\\abstraction\\percistance\\icontexttransactioncreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\comands\\updateuser\\updateuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC6035FA-0805-43C2-A6EF-7DE542C81191}|..\\Common.Percistance\\Common.Percistance.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\common.percistance\\contexttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\comands\\resetuserpassword\\resetuserpasswordcomandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7026C9D5-1BCC-45D9-A06D-93FA372862E0}|..\\Users.Application\\Users.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\users.application\\comands\\deleteuser\\deleteusercomandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13CCEB06-77A3-4AB6-AAB0-EDF146AFBC27}|..\\Auth.Api\\Auth.Api.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E21338F-A9F6-4023-B90C-A8AD1319AEBB}|..\\Auth.Application\\Auth.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\auth.application\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E21338F-A9F6-4023-B90C-A8AD1319AEBB}|..\\Auth.Application\\Auth.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\auth.application\\authdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B354FB-ADB3-4746-AA53-0759C15F1596}|..\\Common.Aplication\\Common.Application.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ita\\1 - todo\\common.aplication\\abstraction\\percistance\\icontexttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,135 +36,87 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetCountQueryHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetCount\\GetCountQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Users.Application\\Query\\GetCount\\GetCountQueryHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetCount\\GetCountQueryHandler.cs",
-              "RelativeToolTip": "..\\Users.Application\\Query\\GetCount\\GetCountQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Aplication\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\Common.Aplication\\DependencyInjection.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Aplication\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\Common.Aplication\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:32:02.224Z",
+              "WhenOpened": "2024-04-08T13:02:49.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetByIdOrDefaultQueryHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetById\\GetByIdOrDefaultQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Users.Application\\Query\\GetById\\GetByIdOrDefaultQueryHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetById\\GetByIdOrDefaultQueryHandler.cs",
-              "RelativeToolTip": "..\\Users.Application\\Query\\GetById\\GetByIdOrDefaultQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "DocumentIndex": 2,
+              "Title": "DbContextDI.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Percistance\\DbContextDI.cs",
+              "RelativeDocumentMoniker": "..\\Common.Percistance\\DbContextDI.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Percistance\\DbContextDI.cs",
+              "RelativeToolTip": "..\\Common.Percistance\\DbContextDI.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABsAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:31:52.141Z"
+              "WhenOpened": "2024-04-08T12:56:53.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetListQueryHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetAll\\GetListQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Users.Application\\Query\\GetAll\\GetListQueryHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetAll\\GetListQueryHandler.cs",
-              "RelativeToolTip": "..\\Users.Application\\Query\\GetAll\\GetListQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "DocumentIndex": 1,
+              "Title": "ContextTransactionBehavior.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Aplication\\Behaviors\\ContextTransactionBehavior.cs",
+              "RelativeDocumentMoniker": "..\\Common.Aplication\\Behaviors\\ContextTransactionBehavior.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Aplication\\Behaviors\\ContextTransactionBehavior.cs",
+              "RelativeToolTip": "..\\Common.Aplication\\Behaviors\\ContextTransactionBehavior.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwB4AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:31:34.354Z"
+              "WhenOpened": "2024-04-08T12:54:08.789Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetListQuery.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetAll\\GetListQuery.cs",
-              "RelativeDocumentMoniker": "..\\Users.Application\\Query\\GetAll\\GetListQuery.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Query\\GetAll\\GetListQuery.cs",
-              "RelativeToolTip": "..\\Users.Application\\Query\\GetAll\\GetListQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ContextTransactionCreater.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Percistance\\ContextTransactionCreater.cs",
+              "RelativeDocumentMoniker": "..\\Common.Percistance\\ContextTransactionCreater.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Percistance\\ContextTransactionCreater.cs",
+              "RelativeToolTip": "..\\Common.Percistance\\ContextTransactionCreater.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:31:23.61Z"
+              "WhenOpened": "2024-04-08T12:27:55.24Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "..\\Users.Application\\DependencyInjection.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "..\\Users.Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Title": "IContextTransactionCreater.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Aplication\\Abstraction\\Percistance\\IContextTransactionCreater.cs",
+              "RelativeDocumentMoniker": "..\\Common.Aplication\\Abstraction\\Percistance\\IContextTransactionCreater.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Aplication\\Abstraction\\Percistance\\IContextTransactionCreater.cs",
+              "RelativeToolTip": "..\\Common.Aplication\\Abstraction\\Percistance\\IContextTransactionCreater.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:31:04.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateUserRequestHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\UpdateUser\\UpdateUserRequestHandler.cs",
-              "RelativeDocumentMoniker": "..\\Users.Application\\Comands\\UpdateUser\\UpdateUserRequestHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\UpdateUser\\UpdateUserRequestHandler.cs",
-              "RelativeToolTip": "..\\Users.Application\\Comands\\UpdateUser\\UpdateUserRequestHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:30:57.82Z"
+              "WhenOpened": "2024-04-08T12:19:11.005Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ResetUserPasswordComandHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\ResetUserPassword\\ResetUserPasswordComandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Users.Application\\Comands\\ResetUserPassword\\ResetUserPasswordComandHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\ResetUserPassword\\ResetUserPasswordComandHandler.cs",
-              "RelativeToolTip": "..\\Users.Application\\Comands\\ResetUserPassword\\ResetUserPasswordComandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Title": "IContextTransaction.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Aplication\\Abstraction\\Percistance\\IContextTransaction.cs",
+              "RelativeDocumentMoniker": "..\\Common.Aplication\\Abstraction\\Percistance\\IContextTransaction.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Aplication\\Abstraction\\Percistance\\IContextTransaction.cs",
+              "RelativeToolTip": "..\\Common.Aplication\\Abstraction\\Percistance\\IContextTransaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:30:52.695Z"
+              "WhenOpened": "2024-04-08T12:15:11.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeleteUserComandHandler.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\DeleteUser\\DeleteUserComandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Users.Application\\Comands\\DeleteUser\\DeleteUserComandHandler.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Users.Application\\Comands\\DeleteUser\\DeleteUserComandHandler.cs",
-              "RelativeToolTip": "..\\Users.Application\\Comands\\DeleteUser\\DeleteUserComandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "DocumentIndex": 5,
+              "Title": "ContextTransaction.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Percistance\\ContextTransaction.cs",
+              "RelativeDocumentMoniker": "..\\Common.Percistance\\ContextTransaction.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Common.Percistance\\ContextTransaction.cs",
+              "RelativeToolTip": "..\\Common.Percistance\\ContextTransaction.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwB4AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:30:47.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Api\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Auth.Api\\Program.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Api\\Program.cs",
-              "RelativeToolTip": "..\\Auth.Api\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAiwAwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:26:30.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Application\\Mapping\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "..\\Auth.Application\\Mapping\\AutoMapperProfile.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Application\\Mapping\\AutoMapperProfile.cs",
-              "RelativeToolTip": "..\\Auth.Application\\Mapping\\AutoMapperProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:26:24.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthDI.cs",
-              "DocumentMoniker": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Application\\AuthDI.cs",
-              "RelativeDocumentMoniker": "..\\Auth.Application\\AuthDI.cs",
-              "ToolTip": "D:\\\u0443\u0447\u0451\u0431\u0430\\\u043A\u0443\u0440\u0441\u044B ITA\\1 - ToDo\\Auth.Application\\AuthDI.cs",
-              "RelativeToolTip": "..\\Auth.Application\\AuthDI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:26:12.663Z"
+              "WhenOpened": "2024-04-08T12:10:12.175Z"
             }
           ]
         }

@@ -15,6 +15,7 @@ namespace Common.Application
         public static IServiceCollection AddCommonAplication(this IServiceCollection services)
         {
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ContextTransactionBehavior<,>));
             return services;
         }
     }

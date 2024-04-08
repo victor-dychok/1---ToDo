@@ -1,6 +1,7 @@
 ﻿using Application.Common.Domain;
 using Common.Api.Service;
 using Common.Application.Abstraction.Percistance;
+using Common.Percistance;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,6 +24,8 @@ namespace Application.Infrastructure.Common.Percistance
                     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
                 }
             );
+
+            services.AddTransient<IContextTransactionCreater, ContextTransactionCreater>();
 
             services.AddTransient<IRepository<AppUserRole>, SqlServerBaseReository<AppUserRole>>();
             services.AddTransient<IRepository<RefreshToken>, SqlServerBaseReository<RefreshToken>>();
